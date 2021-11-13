@@ -1,0 +1,40 @@
+.blog {
+  width: 90%;
+  margin: auto;
+}
+
+.blog h1 {
+  font-family: "A Goblin Appears!";
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 3.2rem;
+}
+
+.blog p {
+  font-size: 2rem;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 1rem;
+  padding-bottom: 5rem;
+  border-bottom: 1px solid black;
+}
+
+.blog a {
+  color: black;
+  text-decoration: none;
+}
+.article-container {
+  margin: auto;
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.article-container h4 {
+}
+
+.article-container img {
+  width: 100%;
+}

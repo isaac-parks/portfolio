@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "A Goblin Appears!";
+  src: url("../../fonts/A-Goblin-Appears.woff2") format("woff2"),
+    url("../../fonts/A-Goblin-Appears.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+main * {
+  margin: 0px;
+  color: white;
+}
+main {
+  font-size: 150%;
+  background-color: black;
+  position: relative;
+}
+
+.introduction {
+  position: relative;
+  font-size: 200%;
+  text-align: center;
+  font-family: "A Goblin Appears!";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.3rem;
+  height: 30rem;
+  background-image: url("../../images/casino.jpg");
+  background-position: center;
+}
+.introduction p {
+  margin-top: 2rem;
+  text-align: center;
+  line-height: 2;
+}
+
+.hero {
+  border-radius: 50%;
+  width: 20%;
+  height: 20%;
+}
+
+.work {
+  text-align: justify;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.work h2 {
+  display: inline;
+  border-bottom: 5px solid grey;
+}
+
+.work p {
+  margin-top: 1rem;
+  text-indent: 1.5rem;
+}
+
+.seework {
+  display: block;
+  margin: auto;
+  margin-top: 1.2rem;
+  font-size: 1rem;
+  background-color: #3061e3;
+  color: black;
+  border: 0px;
+  border-radius: 0.5rem;
+  width: 8rem;
+  height: 2.5rem;
+}

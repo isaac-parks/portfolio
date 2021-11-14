@@ -5,7 +5,12 @@ import Main from "./components/Main/main-content";
 import Projects from "./components/Projects/projects";
 import Blog from "./components/Blog";
 import Article1 from "./components/Blog/article1";
-
+import casino from "./images/casino.jpg";
+import greenhill from "./images/greenhill.png";
+import sun from "./images/sun.png";
+import moon from "./images/moon.png";
+import burgerlight from "./images/burger-light.png";
+import burger from "./images/burger.png";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/footer";
 import styles from "./index.css";
@@ -15,32 +20,52 @@ import footer from "./components/Footer/footer.css";
 
 export default function App() {
   const [menu, setMenu] = useState(false);
-  function showMenu(e) {
+  //true = dark false = light
+  const [theme, setTheme] = useState("dark");
+
+  function toggleMenu(e) {
     e.stopPropagation();
     setMenu(!menu);
   }
 
+  function toggleTheme(e) {
+    e.target.classList.add("colorBtnTransition");
+    if (theme === "dark") {
+      setTheme("light");
+    } else {
+      setTheme("dark");
+    }
+    setTimeout(() => {
+      e.target.classList.remove("colorBtnTransition");
+    }, 200);
+  }
   window.addEventListener("click", (e) => {
-    if (menu) showMenu(e);
+    if (menu) toggleMenu(e);
   });
 
   return (
-    <>
+    <div className={theme}>
       <Header
         showMenu={menu ? "menu show" : "menu"}
-        onClick={(e) => showMenu(e)}
+        toggleMenu={(e) => toggleMenu(e)}
+        toggleTheme={(e) => toggleTheme(e)}
+        burger={(theme === "dark" && burger) || burgerlight}
+        sun={(theme === "dark" && sun) || moon}
+        themeColor={(theme === "dark" && "yellow") || "#946cdc"}
       />
       <div className="main">
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route
+            path="/"
+            element={<Main theme={(theme === "dark" && casino) || greenhill} />}
+          />
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="blog/daytrade" element={<Article1 />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </div>
-
       <Footer />
-    </>
+    </div>
   );
 }

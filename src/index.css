@@ -4,13 +4,26 @@ html {
   padding: 0px;
   font-family: "Inter", sans-serif;
   position: relative;
-  color: white;
+  background-color: black;
 }
 
 body {
   margin: 0px;
   position: static;
-  background-color: black;
+}
+
+.light * {
+  color: black;
+  background-color: white;
+  border-color: black;
+  position: relative;
+  transition: 1s;
+}
+
+.dark * {
+  transition: 1s;
   color: white;
   background-color: black;
+  border-color: white;
+  position: relative;
 }

@@ -7,8 +7,7 @@
 }
 
 .footer-header {
-  background-image: url(../../images/casino.jpg);
-  background-size: 300%;
+  background-size: 100%;
   background-position: no-repeat center center fixed;
   position: relative;
   padding-top: 4rem;
@@ -31,7 +30,7 @@
   margin: 2rem 0.6rem;
   margin-bottom: 0rem;
   position: relative;
-  height: 100rem;
+  height: 115rem;
   overflow: hidden;
 }
 .projects-container * {
@@ -47,9 +46,13 @@
   flex-direction: column;
 }
 
+.project-section * {
+  background-color: transparent;
+}
+
 .project-section img {
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.5;
   z-index: 1;
   top: 0px;
   left: -220%;
@@ -57,6 +60,9 @@
 }
 
 .projects-container h4 {
+  background-color: transparent;
+  text-shadow: 3px 3px black;
+  color: #3061e3;
   position: relative;
   margin-top: 40%;
   font-size: 4.3rem;
@@ -65,7 +71,7 @@
 }
 
 .projects-container p {
-  color: white;
+  background-color: transparent;
   position: relative;
   font-size: 1.8rem;
   z-index: 2;
@@ -76,7 +82,6 @@
   text-align: left;
 }
 .techstack h2 {
-  color: white;
   font-size: 1rem;
 }
 
@@ -86,11 +91,10 @@
 }
 
 .techstack a {
-  color: yellow;
+  color: #dd8800;
   text-decoration: none;
 }
 
 .techstack a:hover {
-  color: white;
   text-decoration: underline;
 }

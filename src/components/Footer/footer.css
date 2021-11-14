@@ -5,16 +5,13 @@ footer * {
 }
 
 footer {
-  background-color: black;
   display: flex;
   flex-direction: column;
 }
 
 .copyright {
-  color: white;
   font-size: 0.8rem;
   align-self: flex-end;
   margin: 1rem auto;
-
   opacity: 1;
 }

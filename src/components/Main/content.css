@@ -17,6 +17,11 @@ main {
   position: relative;
 }
 
+.introduction * {
+  background-color: transparent;
+  text-shadow: 3px 3px black;
+}
+
 .introduction {
   position: relative;
   font-size: 200%;
@@ -27,7 +32,7 @@ main {
   justify-content: center;
   font-size: 1.3rem;
   height: 30rem;
-  background-image: url("../../images/casino.jpg");
+
   background-position: center;
 }
 .introduction p {

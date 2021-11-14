@@ -1,21 +1,25 @@
 import React from "react";
 import Section from "./main-content-section";
-import casino from "../../images/casino.jpg";
 import logo2 from "../../images/logo.jpg";
+import casino from "../../images/casino.jpg";
+import greenhill from "../../images/greenhill.png";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
-export default function Main() {
+export default function Main({ theme }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   return (
     <main>
-      <section className="introduction">
+      <section
+        className="introduction"
+        style={{ backgroundImage: `url(${theme})` }}
+      >
         <h1 style={{ color: "#3061E3" }}>Isaac Parks</h1>
         <p>
           <span style={{ color: "red" }}>Developer</span>{" "}
-          <span style={{ color: "yellow" }}>Designer</span>{" "}
-          <span style={{ color: "green" }}>Marketing</span>
+          <span style={{ color: "orange" }}>Designer</span>{" "}
+          <span style={{ color: "green" }}>Marketer</span>
         </p>
       </section>
       <Section
@@ -43,7 +47,7 @@ export default function Main() {
         title="Contact Me"
         titleClass="work"
         paragraph="I take any chance I can get to expand my network and get to know new people. I love discussing new ideas, and creating opportunities. Let's get in touch! "
-        color="yellow"
+        color="#dd8800"
         btnText="Let's Connect"
         btnClass="seework"
         btnLink="/contact"

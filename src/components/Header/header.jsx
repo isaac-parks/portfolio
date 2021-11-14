@@ -1,20 +1,29 @@
 import logo from "../../images/logo.png";
-import burger from "../../images/burger.png";
-import sun from "../../images/sun.png";
+import Buttons from "./btns";
 import { Link } from "react-router-dom";
-export default function Header({ onClick, showMenu }) {
+export default function Header({
+  toggleMenu,
+  burger,
+  toggleTheme,
+  showMenu,
+  sun,
+  themeColor,
+}) {
   return (
-    <header className="header">
+    <header id="header" className="header">
       <Link to="/">
         <div className="logo-container">
           <img src={logo} alt="" className="logo" />
           <h1>Isaac Parks</h1>
         </div>
       </Link>
-      <div className="buttons">
-        <input type="image" src={sun} alt="Color Mode" />
-        <input onClick={onClick} type="image" src={burger} alt="Menu" />
-      </div>
+      <Buttons
+        burger={burger}
+        toggleTheme={toggleTheme}
+        toggleMenu={toggleMenu}
+        sun={sun}
+        themeColor={themeColor}
+      />
       <ul className={showMenu}>
         <Link to="/">
           <li id="first">

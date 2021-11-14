@@ -21,6 +21,7 @@ export default function Contact() {
               href="https://github.com/indoorike"
               style={{ color: "red" }}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <p style={{ color: "red" }}>@indoorike</p>
             </a>
@@ -31,6 +32,7 @@ export default function Contact() {
               href="https://twitter.com/isaacwithaspace"
               style={{ color: "orange" }}
               target="_blank"
+              rel="noopener noreferrer"
             >
               <p style={{ color: "orange" }}>@isaacwithaspace</p>
             </a>
@@ -41,6 +43,7 @@ export default function Contact() {
               href="https://www.instagram.com/isaacwithaspace/"
               target="_blank"
               style={{ color: "green" }}
+              rel="noopener noreferrer"
             >
               <p style={{ color: "green" }}>@isaacwithaspace</p>
             </a>

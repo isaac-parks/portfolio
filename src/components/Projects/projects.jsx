@@ -34,10 +34,18 @@ export default function Projects() {
             <h2>Tech Stack</h2>
             <p>HTML, CSS, Javascript</p>
             <p className="seecode">
-              <a href="https://indoorike.github.io/BlackJack/" target="_blank">
+              <a
+                href="https://indoorike.github.io/BlackJack/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 See it Live.{" "}
               </a>
-              <a href="https://github.com/indoorike/BlackJack" target="_blank">
+              <a
+                href="https://github.com/indoorike/BlackJack"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 View the Code.
               </a>
             </p>
@@ -57,12 +65,14 @@ export default function Projects() {
               <a
                 href="https://indoorike.github.io/Valorant-API/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 See it Live.{"                 "}
               </a>
               <a
                 href="https://github.com/indoorike/Valorant-API"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 View the Code.
               </a>

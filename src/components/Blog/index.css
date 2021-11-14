@@ -18,11 +18,11 @@
   margin: auto;
   margin-top: 1rem;
   padding-bottom: 5rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 .blog a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .article-container {

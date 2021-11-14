@@ -54,10 +54,16 @@ export default function Projects() {
             <h2>Tech Stack</h2>
             <p>HTML, CSS, Javascript</p>
             <p className="seecode">
-              <a href="https://indoorike.github.io/Valorant-API/">
+              <a
+                href="https://indoorike.github.io/Valorant-API/"
+                target="_blank"
+              >
                 See it Live.{"                 "}
               </a>
-              <a href="https://github.com/indoorike/Valorant-API">
+              <a
+                href="https://github.com/indoorike/Valorant-API"
+                target="_blank"
+              >
                 View the Code.
               </a>
             </p>

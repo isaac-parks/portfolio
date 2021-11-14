@@ -5,6 +5,8 @@ import Main from "./components/Main/main-content";
 import Projects from "./components/Projects/projects";
 import Blog from "./components/Blog";
 import Article1 from "./components/Blog/article1";
+
+import Contact from "./components/Contact";
 import Footer from "./components/Footer/footer";
 import styles from "./index.css";
 import content from "./components/Main/content.css";
@@ -34,6 +36,7 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="blog/daytrade" element={<Article1 />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
       </div>
 

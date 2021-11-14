@@ -46,7 +46,7 @@ export default function Main() {
         color="yellow"
         btnText="Let's Connect"
         btnClass="seework"
-        btnLink="/work"
+        btnLink="/contact"
       />
     </main>
   );

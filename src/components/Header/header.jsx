@@ -31,7 +31,7 @@ export default function Header({ onClick, showMenu }) {
             <a href="#">Blog</a>
           </li>
         </Link>
-        <Link to="/projects">
+        <Link to="/contact">
           <li>
             <a href="#">Contact</a>
           </li>

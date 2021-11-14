@@ -4,9 +4,13 @@ html {
   padding: 0px;
   font-family: "Inter", sans-serif;
   position: relative;
+  color: white;
 }
 
 body {
   margin: 0px;
   position: static;
+  background-color: black;
+  color: white;
+  background-color: black;
 }

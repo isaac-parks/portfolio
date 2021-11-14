@@ -78,3 +78,32 @@ main {
   width: 8rem;
   height: 2.5rem;
 }
+
+@media screen and (min-width: 850px) {
+  .introduction {
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    font-size: 2rem;
+  }
+
+  .work h2 {
+    font-size: 5rem;
+    display: block;
+    text-align: left;
+    margin: auto;
+  }
+
+  .work p {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  .seework {
+    font-size: 2rem;
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+  }
+}

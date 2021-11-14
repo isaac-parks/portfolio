@@ -15,7 +15,11 @@ export default function Section({
       <Link to={btnLink} style={{ textDecoration: "none" }}>
         <button
           href={btnLink}
-          style={{ backgroundColor: color }}
+          style={{
+            backgroundColor: color,
+            border: "3px solid grey",
+            color: "white",
+          }}
           className={btnClass}
         >
           {btnText}

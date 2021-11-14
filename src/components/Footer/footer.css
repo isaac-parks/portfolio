@@ -5,6 +5,7 @@ footer * {
 }
 
 footer {
+  margin-top: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -14,4 +15,5 @@ footer {
   align-self: flex-end;
   margin: 1rem auto;
   opacity: 1;
+  padding: 20px;
 }

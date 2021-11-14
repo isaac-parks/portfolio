@@ -45,7 +45,7 @@ export default function Projects() {
         </section>
         <section className="project-section">
           <img src={valorant} alt="" />
-          <h4 style={{ color: "#3061e3" }}>Valorant Agents</h4>
+          <h4 style={{ color: "red" }}>Valorant Agents</h4>
           <p>
             Created using Riot Games REST API documentation. Displays
             information about characters from the video game Valorant.

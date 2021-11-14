@@ -15,7 +15,13 @@ export default function Buttons({
         style={{ backgroundColor: themeColor }}
         alt="Color Mode"
       />
-      <input onClick={toggleMenu} type="image" src={burger} alt="Menu" />
+      <input
+        id="burgerBtn"
+        onClick={toggleMenu}
+        type="image"
+        src={burger}
+        alt="Menu"
+      />
     </div>
   );
 }

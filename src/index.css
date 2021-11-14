@@ -9,21 +9,42 @@ html {
 
 body {
   margin: 0px;
-  position: static;
+  position: relative;
+  min-height: 100vh;
+}
+
+.main {
+  min-height: 95vh;
 }
 
 .light * {
   color: black;
-  background-color: white;
+  background-color: #f0e7db;
   border-color: black;
   position: relative;
-  transition: 1s;
+  transition: 0.2s;
 }
 
 .dark * {
-  transition: 1s;
   color: white;
   background-color: black;
   border-color: white;
   position: relative;
+  transition: 0.2s;
+}
+
+@media screen and (min-width: 850px) {
+  html {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    font-size: 150%;
+  }
+  body {
+    width: 90%;
+    margin: auto;
+  }
+  #header {
+    width: 81%;
+  }
 }

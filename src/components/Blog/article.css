@@ -14,7 +14,8 @@
   font-size: 2.7rem;
   text-align: center;
   padding-bottom: 2rem;
-  padding-top: 2rem;
+  padding-top: 7rem;
+  margin: 0px;
 
   border-bottom: 1px solid grey;
 }
@@ -43,7 +44,12 @@
 }
 
 .date {
+  text-align: left;
   font-size: 0.8rem;
+}
+
+.date p {
+  text-align: left;
 }
 
 .author img {
@@ -70,4 +76,18 @@
   font-weight: bold;
   margin: 1rem 0rem;
   display: block;
+}
+
+@media screen and (min-width: 850px) {
+  .post-container {
+    width: 70%;
+  }
+  .content {
+    width: 70%;
+    text-align: left;
+  }
+
+  .article-bold-text {
+    font-size: 3rem;
+  }
 }

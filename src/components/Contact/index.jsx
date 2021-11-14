@@ -1,30 +1,48 @@
 import style from "./contact.css";
+import github from "../../images/github.png";
+import instagram from "../../images/instagram.png";
+import twitter from "../../images/twitter.png";
 export default function Contact() {
   return (
     <div className="contact-container">
-      <h1>Don't be shy! </h1>
+      <h1>Don't be shy! 😉 </h1>
       <section className="professional-box">
+        <p>
+          The fastest way to reach me is my email! (No way this guy is a Gen Z!){" "}
+        </p>
         <a href="mailto: isaacparks1800@gmail.com">isaacparks1800@gmail.com</a>
       </section>
       <section className="socials-container">
         <h2>Or find me on the web...</h2>
         <ul className="social-links">
           <li>
-            <a href="https://github.com/indoorike" target="_blank">
-              @indoorike
+            <img id="github" src={github} alt="" />
+            <a
+              href="https://github.com/indoorike"
+              style={{ color: "red" }}
+              target="_blank"
+            >
+              <p style={{ color: "red" }}>@indoorike</p>
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/isaacwithaspace" target="_blank">
-              @isaacwithaspace
+            <img src={twitter} alt="" />
+            <a
+              href="https://twitter.com/isaacwithaspace"
+              style={{ color: "orange" }}
+              target="_blank"
+            >
+              <p style={{ color: "orange" }}>@isaacwithaspace</p>
             </a>
           </li>
           <li>
+            <img src={instagram} alt="" />
             <a
               href="https://www.instagram.com/isaacwithaspace/"
               target="_blank"
+              style={{ color: "green" }}
             >
-              @isaacwithaspace
+              <p style={{ color: "green" }}>@isaacwithaspace</p>
             </a>
           </li>
         </ul>

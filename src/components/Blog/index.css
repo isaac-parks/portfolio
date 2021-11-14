@@ -25,14 +25,14 @@
   color: white;
   text-decoration: none;
 }
-.article-container {
-  margin: auto;
-  margin-top: 5rem;
+
+.articles {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
-
-.article-container h4 {
+  gap: 20px;
+  align-items: end;
+  margin: auto;
+  margin-top: 5rem;
 }
 
 .article-container img {

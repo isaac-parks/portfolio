@@ -24,7 +24,7 @@ export default function Main({ theme }) {
       </section>
       <Section
         titleClass="work"
-        title="Work"
+        title="Projects"
         paragraph="The coolest part about programming is being able to create. I have the capability of dreaming up something in my head, and manifesting it by talking to a computer! That's pretty incredible when you think about it. It's important to me that my projects reflect a piece of myself."
         btnClass="seework"
         btnText="My Projects"
@@ -35,7 +35,7 @@ export default function Main({ theme }) {
         title="About Me"
         titleClass="work"
         paragraph="It has always been amazing to me how much of our world is based on
-    computers. From the light in our refrigerators to the Perseverance Rover on
+    computers. From the timer in our microwaves, to the Perseverance Rover on
     Mars, the world of programming is vast and complex. Every line of code I
     write is a puzzle piece in understanding that complexity."
         btnClass="seework"

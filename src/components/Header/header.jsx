@@ -1,7 +1,7 @@
-import logo from "../../images/logo.png";
 import Buttons from "./btns";
 import { Link } from "react-router-dom";
 export default function Header({
+  logo,
   toggleMenu,
   burger,
   toggleTheme,
@@ -25,26 +25,26 @@ export default function Header({
         themeColor={themeColor}
       />
       <ul className={showMenu}>
-        <Link to="/">
-          <li id="first">
+        <li id="first">
+          <Link to="/">
             <a href="#">Home</a>
-          </li>
-        </Link>
-        <Link to="/projects">
-          <li>
+          </Link>
+        </li>
+        <li>
+          <Link to="/projects">
             <a href="#">Projects</a>
-          </li>
-        </Link>
-        <Link to="/blog">
-          <li>
+          </Link>
+        </li>
+        <li>
+          <Link to="/blog">
             <a href="#">Blog</a>
-          </li>
-        </Link>
-        <Link to="/contact">
-          <li>
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact">
             <a href="#">Contact</a>
-          </li>
-        </Link>
+          </Link>
+        </li>
       </ul>
     </header>
   );

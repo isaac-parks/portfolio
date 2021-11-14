@@ -1,9 +1,5 @@
 import React from "react";
 import Section from "./main-content-section";
-import logo2 from "../../images/logo.jpg";
-import casino from "../../images/casino.jpg";
-import greenhill from "../../images/greenhill.png";
-import { Link } from "react-router-dom";
 import { useEffect } from "react";
 export default function Main({ theme }) {
   useEffect(() => {

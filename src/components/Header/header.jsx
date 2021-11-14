@@ -26,24 +26,16 @@ export default function Header({
       />
       <ul className={showMenu}>
         <li id="first">
-          <Link to="/">
-            <a href="#">Home</a>
-          </Link>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/projects">
-            <a href="#">Projects</a>
-          </Link>
+          <Link to="/projects">Projects</Link>
         </li>
         <li>
-          <Link to="/blog">
-            <a href="#">Blog</a>
-          </Link>
+          <Link to="/blog">Blog</Link>
         </li>
         <li>
-          <Link to="/contact">
-            <a href="#">Contact</a>
-          </Link>
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
     </header>

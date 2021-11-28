@@ -25,7 +25,7 @@ export default function App() {
   const [menu, setMenu] = useState(false);
   //true = dark false = light
   const [theme, setTheme] = useState("dark");
-
+  
   function toggleMenu(e) {
     e.stopPropagation();
     setMenu(!menu);

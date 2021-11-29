@@ -18,7 +18,7 @@ export default function Blog() {
         <BlogPreview
           articleLink="/blog/daytrade"
           previewImage={daytrade}
-          title="I Made Enough Money to Pay off College by Day Trading. Here's Why You Shouldn't Do it."
+          title="I am a Successful Day Trader. Here's Why You Shouldn't Do it."
         />
         <BlogPreview
           articleLink="/blog/savemoney"

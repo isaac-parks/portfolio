@@ -6,6 +6,7 @@ import Projects from "./components/Projects/projects";
 import Blog from "./components/Blog";
 import Article1 from "./components/Blog/article1";
 import Article2 from "./components/Blog/article2";
+import Article3 from "./components/Blog/article3";
 import casino from "./images/casino.jpg";
 import greenhill from "./images/greenhill.png";
 import logo from "./images/logo.png";
@@ -72,6 +73,7 @@ export default function App() {
             <Route path="/blog" element={<Blog />} />
             <Route path="blog/daytrade" element={<Article1 />}></Route>
             <Route path="blog/savemoney" element={<Article2 />}></Route>
+            <Route path="blog/coding" element={<Article3 />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
           </Routes>
         </div>

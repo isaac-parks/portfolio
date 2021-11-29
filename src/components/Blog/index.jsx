@@ -1,5 +1,6 @@
 import daytrade from "../../images/tesla.png";
 import save from "../../images/money.png";
+import coding from "../../images/coding.png";
 import { useEffect } from "react";
 import BlogPreview from "./blog-preview";
 import style from "./index.css";
@@ -16,9 +17,14 @@ export default function Blog() {
       </p>
       <div className="articles">
         <BlogPreview
+          articleLink="/blog/coding"
+          previewImage={coding}
+          title="How I found my Passion in Coding"
+        />
+        <BlogPreview
           articleLink="/blog/daytrade"
           previewImage={daytrade}
-          title="I Made Enough Money to Pay off College by Day Trading. Here's Why You Shouldn't Do it."
+          title="I Love Day Trading - Here's Why You Shouldn't Do it"
         />
         <BlogPreview
           articleLink="/blog/savemoney"

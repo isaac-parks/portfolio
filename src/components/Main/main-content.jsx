@@ -21,7 +21,10 @@ export default function Main({ theme }) {
       <Section
         titleClass="work"
         title="Projects"
-        paragraph="The coolest part about programming is being able to create. I have the capability of dreaming up something in my head, and manifesting it by talking to a computer! That's pretty incredible when you think about it. It's important to me that my projects reflect a piece of myself."
+        paragraph="The coolest part about programming is being able to create. 
+        It's really amazing to be capable of dreaming up something in my head, 
+        and make it happen by talking to a computer! That's pretty incredible when you think about it. 
+        This is why I really enjoy creating projects that reflect a piece of myself."
         btnClass="seework"
         btnText="My Projects"
         color="#3061E3"
@@ -30,10 +33,8 @@ export default function Main({ theme }) {
       <Section
         title="About Me"
         titleClass="work"
-        paragraph="It has always been amazing to me how much of our world is based on
-    computers. From the timer in our microwaves, to the Perseverance Rover on
-    Mars, the world of programming is vast and complex. Every line of code I
-    write is a puzzle piece in understanding that complexity."
+        paragraph="I do a lot! A crucial part of who I am is based on my love of learning. 
+        That's why my skillset has become so diverse - any time I see something that sparks my interest, I learn about it."
         btnClass="seework"
         btnText="Learn More"
         color="#DA2528"

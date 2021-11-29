@@ -26,15 +26,29 @@
   font-size: 3rem;
 }
 
+.tech-stack-section {
+  border-bottom-style: solid;
+  padding-bottom: 2rem;
+}
+.tech-stack-section h2 {
+  margin-bottom: 2rem;
+}
+
+.tech-stack-section img {
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  margin-left: 2rem;
+}
+
 .projects-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 2rem 0.6rem;
-  gap: 10px;
-  margin-bottom: 0rem;
-  position: relative;
 
+  gap: 10px;
+
+  position: relative;
   overflow: hidden;
 }
 .projects-container * {

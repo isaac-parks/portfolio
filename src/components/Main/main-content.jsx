@@ -18,6 +18,7 @@ export default function Main({ theme }) {
           <span style={{ color: "green" }}>Marketer</span>
         </p>
       </section>
+
       <Section
         titleClass="work"
         title="Projects"
@@ -30,6 +31,7 @@ export default function Main({ theme }) {
         color="#3061E3"
         btnLink="/projects"
       />
+
       <Section
         title="About Me"
         titleClass="work"

@@ -10,7 +10,7 @@ export default function Article1() {
       <BlogPost
         date="March 30, 2021"
         articleImage={tesla}
-        title="I Made Enough Money to Pay off College by Day Trading - Here's Why You Shouldn't Do it"
+        title="I Love Day Trading - Here's Why You Shouldn't Do it"
       />
       <p className="content">
         If you know anything about the stock market, chances are you’ve heard of

@@ -64,6 +64,7 @@ main {
 .work p {
   margin-top: 1rem;
   text-indent: 1.5rem;
+  line-height: 1.5;
 }
 
 .seework {
@@ -90,15 +91,21 @@ main {
     font-size: 1.8rem;
   }
 
+  .work {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .work h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     display: block;
     text-align: left;
     margin: auto;
   }
 
   .work p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: left;
   }
 

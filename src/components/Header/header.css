@@ -37,7 +37,7 @@ header {
   width: 94px;
   object-fit: contain;
   position: absolute;
-  transform: rotate(-10deg);
+  transform: rotate(-6deg);
   background-color: transparent;
   left: 40%;
   top: -180%;

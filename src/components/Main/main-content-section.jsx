@@ -17,7 +17,7 @@ export default function Section({
           href={btnLink}
           style={{
             backgroundColor: color,
-            border: "3px solid grey",
+            border: "1px solid",
             color: "white",
           }}
           className={btnClass}

@@ -29,6 +29,7 @@ header {
   display: flex;
   align-items: center;
   gap: 4px;
+  padding-left: 0.5rem;
 }
 
 .logo-container img {
@@ -53,16 +54,11 @@ header {
 }
 
 .buttons input {
-  border: 2px solid grey;
   height: 1.2rem;
   width: 1.2rem;
   border: 2px solid;
   border-radius: 0.5rem;
   padding: 0.5rem;
-}
-
-.buttons input:first-child {
-  background-color: yellow;
 }
 
 .menu {
@@ -99,7 +95,7 @@ header {
   margin-top: 1rem;
 }
 
-.colorBtn {
+#colorBtn {
   transform: translateY(0%);
   transition: 0.1s;
 }

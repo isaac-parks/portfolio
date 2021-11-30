@@ -6,20 +6,23 @@
   position: relative;
 }
 
+.projects * {
+  margin: 0px;
+}
+
 .footer-header {
   background-size: 100%;
   background-position: no-repeat center center fixed;
   position: relative;
   padding-top: 4rem;
+  width: 90%;
+  text-align: center;
+  margin: auto;
 }
 
 .footer-header p {
   margin-bottom: 5rem;
   margin-top: 1rem;
-}
-
-.projects * {
-  margin: 0px;
 }
 
 .projects h1,
@@ -31,7 +34,7 @@
   border-style: solid;
   padding: 2rem;
   margin: auto;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
   width: 70%;
 }
 .tech-stack-section h2 {

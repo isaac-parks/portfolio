@@ -8,7 +8,7 @@ export default function Buttons({
   return (
     <div className="buttons">
       <input
-        className="colorBtn"
+        id="colorBtn"
         onClick={toggleTheme}
         type="image"
         src={sun}

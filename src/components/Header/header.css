@@ -39,7 +39,7 @@ header {
   position: absolute;
   transform: rotate(-6deg);
   background-color: transparent;
-  left: 40%;
+  left: 45%;
   top: -180%;
 }
 
@@ -129,7 +129,7 @@ header {
   .logo-container img {
     height: 145px;
     width: 145px;
-    left: 35%;
+    left: 45%;
     top: -200%;
   }
 

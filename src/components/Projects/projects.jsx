@@ -49,26 +49,17 @@ export default function Projects() {
       </div>
 
       <div className="projects-container">
-        <h2
-          style={{
-            fontSize: "3rem",
-            alignSelf: "center",
-            marginTop: "4rem",
-            marginBottom: "4rem",
-            flex: "0.5",
-          }}
-        >
-          My Projects
-        </h2>
         <section className="project-section">
-          <img src={blackjack} alt="" />
           <h4>8-bit Blackjack</h4>
+          <img src={blackjack} alt="blackjack project" />
+          <h2>// What it does</h2>
           <p>
-            Full feature Blackjack with betting and card rendering. Currently
-            hosted on GitHub.
+            Full feature Blackjack with betting and card rendering. Made using a
+            combination of CSS grid and flexbox. The first completely original
+            project I came up with! Currently hosted on GitHub.
           </p>
           <div className="techstack">
-            <h2>Tech Stack</h2>
+            <h2>// Tech stack</h2>
             <p>HTML, CSS, Javascript</p>
             <p className="seecode">
               <a
@@ -89,14 +80,17 @@ export default function Projects() {
           </div>
         </section>
         <section className="project-section">
-          <img src={valorant} alt="" />
           <h4 style={{ color: "red" }}>Valorant Agents</h4>
+          <img src={valorant} alt="valorant project" />
+          <h2>// What it does</h2>
           <p>
             Created using Riot Games REST API documentation. Displays
-            information about characters from the video game Valorant.
+            information about characters from the video game Valorant. Used
+            Javascript events to create scroll effect for character selection.
+            Currently hosted on GitHub.
           </p>
           <div className="techstack">
-            <h2>Tech Stack</h2>
+            <h2>// Tech stack</h2>
             <p>HTML, CSS, Javascript</p>
             <p className="seecode">
               <a

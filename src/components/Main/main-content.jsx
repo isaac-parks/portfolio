@@ -13,9 +13,9 @@ export default function Main({ theme }) {
       >
         <h1 style={{ color: "#3061E3" }}>Isaac Parks</h1>
         <p>
-          <span style={{ color: "red" }}>Developer</span>{" "}
-          <span style={{ color: "orange" }}>Designer</span>{" "}
-          <span style={{ color: "green" }}>Marketer</span>
+          <span style={{ color: "red" }}>Front</span>{" "}
+          <span style={{ color: "orange" }}>End</span>{" "}
+          <span style={{ color: "green" }}>Developer</span>
         </p>
       </section>
 

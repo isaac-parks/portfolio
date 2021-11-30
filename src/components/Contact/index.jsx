@@ -40,12 +40,12 @@ export default function Contact() {
           <li>
             <img src={instagram} alt="" />
             <a
-              href="https://www.instagram.com/isaacwithaspace/"
+              href="https://www.linkedin.com/in/isaac-parks-4902691b6/"
               target="_blank"
               style={{ color: "green" }}
               rel="noopener noreferrer"
             >
-              <p style={{ color: "green" }}>@isaacwithaspace</p>
+              <p style={{ color: "green" }}>@Isaac Parks</p>
             </a>
           </li>
         </ul>

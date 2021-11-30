@@ -1,6 +1,6 @@
 import coding from "../../images/coding.png";
 import BlogPost from "./blog-post";
-export default function Article3() {
+export default function Article3({ color }) {
   return (
     <>
       <BlogPost
@@ -8,7 +8,7 @@ export default function Article3() {
         articleImage={coding}
         date="November 21, 2021"
       />
-      <p className="content">
+      <p style={{ color: color }} className="content">
         Throughout my life, I’ve always been labeled as “the smart kid.” My
         parents were always proud of my good grades, classmates always wanted to
         look at my homework, and teachers would tell me that I was destined for
@@ -18,7 +18,7 @@ export default function Article3() {
         but there wasn’t anything I could imagine studying that didn’t make me
         want to vomit.
         <br></br>
-        <span className="article-bold-text">
+        <span style={{ color: color }} className="article-bold-text">
           ...But I still went to college
         </span>
         <br></br>
@@ -30,7 +30,7 @@ export default function Article3() {
         small-town kid from Iowa. But it still felt like something was missing.
         While I enjoy marketing, it just doesn’t quite feel like my passion.
         <br></br>
-        <span className="article-bold-text">
+        <span style={{ color: color }} className="article-bold-text">
           And that’s where programming comes into the picture.
         </span>
         <br></br>
@@ -57,7 +57,9 @@ export default function Article3() {
         autonomously complete my daily COVID check-in for on-campus students (I
         always forgot to do them, so I thought, why not?).
         <br></br>
-        <span className="article-bold-text">What was the next step?</span>
+        <span style={{ color: color }} className="article-bold-text">
+          What was the next step?
+        </span>
         <br></br>
         As I got closer to graduation, I realized that I wouldn’t mind spending
         the rest of my life coding - so why not try to get into a career doing

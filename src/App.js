@@ -8,9 +8,13 @@ import Article1 from "./components/Blog/article1";
 import Article2 from "./components/Blog/article2";
 import Article3 from "./components/Blog/article3";
 import casino from "./images/casino.jpg";
+import day from "./images/daywallpaper.png";
+import night from "./images/nightwallpaper.jpg";
 import greenhill from "./images/greenhill.png";
 import logo from "./images/logo.png";
 import logolight from "./images/logo-light.png";
+import afterdark from "./images/afterdark-logo.png";
+import daylogo from "./images/daylogo.jpg";
 import sun from "./images/sun.png";
 import moon from "./images/moon.png";
 import burgerlight from "./images/burger-light.png";
@@ -25,8 +29,8 @@ import footer from "./components/Footer/footer.css";
 export default function App() {
   const [menu, setMenu] = useState(false);
   //true = dark false = light
-  const [theme, setTheme] = useState("dark");
-  
+  const [theme, setTheme] = useState("light");
+
   function toggleMenu(e) {
     e.stopPropagation();
     setMenu(!menu);
@@ -53,7 +57,7 @@ export default function App() {
     <div className={theme}>
       <div className="content-wrapper">
         <Header
-          logo={(theme === "dark" && logo) || logolight}
+          logo={(theme === "dark" && afterdark) || daylogo}
           showMenu={menu ? "menu show" : "menu"}
           toggleMenu={(e) => toggleMenu(e)}
           toggleTheme={(e) => toggleTheme(e)}
@@ -65,15 +69,28 @@ export default function App() {
           <Routes>
             <Route
               path="/"
-              element={
-                <Main theme={(theme === "dark" && casino) || greenhill} />
-              }
+              element={<Main theme={(theme === "dark" && night) || day} />}
             />
             <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} />
-            <Route path="blog/daytrade" element={<Article1 />}></Route>
-            <Route path="blog/savemoney" element={<Article2 />}></Route>
-            <Route path="blog/coding" element={<Article3 />}></Route>
+            <Route
+              path="blog/daytrade"
+              element={
+                <Article1 color={(theme === "dark" && "#D3D3D3") || "black"} />
+              }
+            ></Route>
+            <Route
+              path="blog/savemoney"
+              element={
+                <Article2 color={(theme === "dark" && "#D3D3D3") || "black"} />
+              }
+            ></Route>
+            <Route
+              path="blog/coding"
+              element={
+                <Article3 color={(theme === "dark" && "#D3D3D3") || "black"} />
+              }
+            ></Route>
             <Route path="/contact" element={<Contact />}></Route>
           </Routes>
         </div>

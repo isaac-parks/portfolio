@@ -13,16 +13,17 @@ main * {
 }
 main {
   font-size: 150%;
-
   position: relative;
 }
 
 .introduction * {
   background-color: transparent;
-  text-shadow: 3px 3px black;
+  text-shadow: 1px 1px black;
 }
 
 .introduction {
+  width: 99%;
+  margin: auto;
   position: relative;
   font-size: 200%;
   text-align: center;
@@ -32,8 +33,8 @@ main {
   justify-content: center;
   font-size: 1.3rem;
   height: 30rem;
-
-  background-position: center;
+  background-position: 25% 60%;
+  background-size: 230%;
 }
 .introduction p {
   margin-top: 2rem;

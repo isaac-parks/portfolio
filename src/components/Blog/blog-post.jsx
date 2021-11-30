@@ -1,6 +1,6 @@
 import isaac from "../../images/isaac.jpg";
 import style from "./article.css";
-export default function BlogPost({ title, articleImage, date, content }) {
+export default function BlogPost({ title, articleImage, date }) {
   return (
     <div className="post-container">
       <section className="title">
@@ -19,9 +19,6 @@ export default function BlogPost({ title, articleImage, date, content }) {
             <em>{date}</em>
           </p>
         </div>
-      </section>
-      <section className="content">
-        <p>{content}</p>
       </section>
     </div>
   );

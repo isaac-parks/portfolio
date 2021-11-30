@@ -1,6 +1,6 @@
 import BlogPost from "./blog-post";
 import money from "../../images/money.png";
-export default function Article2() {
+export default function Article2({ color }) {
   return (
     <>
       <BlogPost
@@ -8,13 +8,15 @@ export default function Article2() {
         articleImage={money}
         title="3 Quick Ways to Start Saving Money"
       />
-      <p className="content">
+      <p style={{ color: color }} className="content">
         One of the most important skills required to build wealth is knowing how
         to save your money. It may sound simple, but it’s a bit more difficult
         than it seems. Without a proper plan, it can be easy to let your
         spending get ahead of itself, and for your savings to take the hit for
         it. <br></br>{" "}
-        <span className="article-bold-text">Tracking expenses</span>
+        <span style={{ color: color }} className="article-bold-text">
+          Tracking expenses
+        </span>
         Consistently tracking how much money you are spending is crucial to
         saving. One of the biggest reasons people spend more money than they
         should is due to “micro purchases.” When a person is grocery shopping,
@@ -30,7 +32,7 @@ export default function Article2() {
         helping you keep track of how much you’re spending. It keeps all of your
         bank accounts in one easy to find place, which makes it great for seeing
         where your money is going. <br></br>
-        <span className="article-bold-text">
+        <span style={{ color: color }} className="article-bold-text">
           Cut out the extra, set priorities
         </span>
         Six months ago I looked at one of my monthly bank statements for the
@@ -45,7 +47,9 @@ export default function Article2() {
         use consistently and benefit from. However, if you have a premium
         Netflix subscription you pay $20 for every month, it’s probably best to
         downgrade, or even cancel it all together. <br></br>
-        <span className="article-bold-text">Budgeting and goal setting</span>
+        <span style={{ color: color }} className="article-bold-text">
+          Budgeting and goal setting
+        </span>
         Perhaps the most important aspect of saving money is budgeting. Every
         month you should have a good estimate as to where your money is going.
         Before each month begins, plan out how much money you plan on spending,

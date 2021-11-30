@@ -1,7 +1,7 @@
 import BlogPost from "./blog-post";
 import tesla from "../../images/tesla.png";
 import { useEffect } from "react";
-export default function Article1() {
+export default function Article1({ color }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
@@ -12,7 +12,7 @@ export default function Article1() {
         articleImage={tesla}
         title="I Love Day Trading - Here's Why You Shouldn't Do it"
       />
-      <p className="content">
+      <p style={{ color: color }} className="content">
         If you know anything about the stock market, chances are you’ve heard of
         day trading. Day trading involves buying high risk, highly volatile
         securities, and then selling them within a short time frame. Day traders
@@ -24,7 +24,9 @@ export default function Article1() {
         millionaire doing it. Lots of flashy entrepreneurs make it seem easy.
         This is not the case at all. What many people won’t tell you, is that
         90% of day traders fail.
-        <span className="article-bold-text">High stress, high emotion</span>
+        <span style={{ color: color }} className="article-bold-text">
+          High stress, high emotion
+        </span>
         Contrary to what I just said, day trading itself is pretty easy. It
         isn’t difficult to learn patterns and strategies in just a few months –
         they aren’t nearly as complicated as you may think. The extreme
@@ -36,19 +38,23 @@ export default function Article1() {
         Emotions get in the way of this. Seasoned day traders are familiar with
         terms like bag holding and FOMO, which are some of the most common
         mental mistakes people make.
-        <span className="article-bold-text">Patience</span> The other big
-        problem with day trading is that people simply don’t have the passion or
-        the patience for it. Day trading is often marketed as a way you can quit
-        your 9-5 job, and work 2 hours a day from anywhere in the world. While
-        it’s true that you can make huge gains in a short amount of time, it
-        takes a lot of patience to wait for winning opportunities. Most of the
-        time, you’ll have to stare at your computer screen for several hours
-        watching stocks before entering a position. Not many people have the
-        passion to do this and for most it can be quite boring. The worst part
-        is that when you start to get inpatient, you start to see patterns and
-        entry points that aren’t actually there (which ultimately leads to you
-        losing money).{" "}
-        <span className="article-bold-text">A skill that needs developing</span>{" "}
+        <span style={{ color: color }} className="article-bold-text">
+          Patience
+        </span>{" "}
+        The other big problem with day trading is that people simply don’t have
+        the passion or the patience for it. Day trading is often marketed as a
+        way you can quit your 9-5 job, and work 2 hours a day from anywhere in
+        the world. While it’s true that you can make huge gains in a short
+        amount of time, it takes a lot of patience to wait for winning
+        opportunities. Most of the time, you’ll have to stare at your computer
+        screen for several hours watching stocks before entering a position. Not
+        many people have the passion to do this and for most it can be quite
+        boring. The worst part is that when you start to get inpatient, you
+        start to see patterns and entry points that aren’t actually there (which
+        ultimately leads to you losing money).{" "}
+        <span style={{ color: color }} className="article-bold-text">
+          A skill that needs developing
+        </span>{" "}
         Finally, most people don’t understand that day trading is a skill, and
         that it requires a lot of practice to get good. I started day trading
         when I was 18, and wasn’t profitable until I was 21 (you can lose a lot

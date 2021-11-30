@@ -23,7 +23,7 @@
 
 .projects h1,
 .projects p {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .tech-stack-section {
@@ -32,6 +32,7 @@
 }
 .tech-stack-section h2 {
   margin-bottom: 2rem;
+  font-size: 1.3rem;
 }
 
 .tech-stack-section img {
@@ -46,7 +47,7 @@
   flex-direction: column;
   justify-content: center;
 
-  gap: 10px;
+  gap: 30px;
 
   position: relative;
   overflow: hidden;
@@ -63,20 +64,31 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  gap: 50px;
 }
 
 .project-section * {
   background-color: transparent;
 }
 
+.project-section h4 {
+  flex: 1;
+}
+
+.project-section p {
+  flex: 1;
+}
+
 .project-section img {
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.2;
   z-index: 1;
   top: 0px;
   left: -300px;
   bottom: 0px;
   height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .projects-container h4 {
@@ -84,7 +96,7 @@
   text-shadow: 3px 3px black;
   color: #3061e3;
   position: relative;
-  font-size: 4.3rem;
+  font-size: 3rem;
   text-align: left;
   z-index: 100000000;
 }
@@ -92,13 +104,14 @@
 .projects-container p {
   background-color: transparent;
   position: relative;
-  font-size: 1.8rem;
+  font-size: 1rem;
   z-index: 2;
   text-align: left;
 }
 
 .techstack {
   text-align: left;
+  flex: 1;
 }
 .techstack h2 {
   z-index: 2;

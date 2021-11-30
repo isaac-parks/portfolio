@@ -17,7 +17,7 @@ export default function Projects() {
     <div className="projects transition">
       <div className="footer-header">
         <h1>
-          <span style={{ fontSize: "5rem" }}>
+          <span style={{ fontSize: "4rem" }}>
             {" "}
             I <span style={{ color: "red" }}>❤️ </span> Creating -{" "}
           </span>{" "}

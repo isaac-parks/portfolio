@@ -31,10 +31,10 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 1.3rem;
-  height: 30rem;
-  background-position: 25% 60%;
-  background-size: 230%;
+  font-size: 2rem;
+  height: 100vh;
+  background-position: 20% 60%;
+  background-size: 420%;
 }
 .introduction p {
   margin-top: 2rem;

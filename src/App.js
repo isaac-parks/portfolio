@@ -57,6 +57,10 @@ export default function App() {
           showMenu={menu ? "menu show" : "menu"}
           toggleMenu={(e) => toggleMenu(e)}
           toggleTheme={(e) => toggleTheme(e)}
+          /*if the && expression returns false (which it does if theme is not dark - 
+            because %% returns the first value if the second is not true)
+            then it returns the second because || only returns first value if true
+          */
           burger={(theme === "dark" && burger) || burgerlight}
           sun={(theme === "dark" && sun) || moon}
           themeColor={(theme === "dark" && "yellow") || "#946cdc"}

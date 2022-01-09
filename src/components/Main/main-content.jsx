@@ -13,8 +13,10 @@ export default function Main({ theme }) {
       >
         <h1 style={{ color: "#3061E3" }}>Isaac Parks</h1>
         <p>
-          <span style={{ color: "red" }}>Front</span>{" "}
-          <span style={{ color: "orange" }}>End</span>{" "}
+          <span style={{ color: "#FF1400" }}>
+            Soft<span style={{ color: "#F1B000" }}>Ware</span>{" "}
+          </span>{" "}
+          {/* <span style={{ color: "#F1B000" }}>Ware</span>{" "} */}
           <span style={{ color: "green" }}>Developer</span>
         </p>
       </section>
@@ -46,7 +48,7 @@ export default function Main({ theme }) {
         title="Contact Me"
         titleClass="work"
         paragraph="I take any chance I can get to expand my network and get to know new people. I love discussing new ideas, and creating opportunities. Let's get in touch! "
-        color="#dd8800"
+        color="#F1B000"
         btnText="Let's Connect"
         btnClass="seework"
         btnLink="/contact"

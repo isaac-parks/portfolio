@@ -19,22 +19,22 @@ export default function Contact() {
             <img id="github" src={github} alt="" />
             <a
               href="https://github.com/indoorike"
-              style={{ color: "red" }}
+              style={{ color: "#FF1400" }}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p style={{ color: "red" }}>@indoorike</p>
+              <p style={{ color: "#FF1400" }}>@indoorike</p>
             </a>
           </li>
           <li>
             <img src={twitter} alt="" />
             <a
               href="https://twitter.com/isaacwithaspace"
-              style={{ color: "orange" }}
+              style={{ color: "#F1B000" }}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p style={{ color: "orange" }}>@isaacwithaspace</p>
+              <p style={{ color: "#F1B000" }}>@isaacwithaspace</p>
             </a>
           </li>
           <li>

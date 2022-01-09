@@ -32,8 +32,9 @@ export default function App() {
     setMenu(!menu);
   }
 
-  function toggleTheme(e) {
-    e.target.classList.add("colorBtnTransition");
+  function toggleTheme() {
+    const colorButton = document.querySelector("#colorBtn");
+    colorButton.classList.add("colorBtnTransition");
     if (theme === "dark") {
       setTheme("light");
       document.querySelector("html").style.backgroundColor = "#f0e7db";
@@ -42,7 +43,7 @@ export default function App() {
       document.querySelector("html").style.backgroundColor = "black";
     }
     setTimeout(() => {
-      e.target.classList.remove("colorBtnTransition");
+      colorButton.classList.remove("colorBtnTransition");
     }, 100);
   }
   window.addEventListener("click", (e) => {
@@ -56,7 +57,7 @@ export default function App() {
           logo={(theme === "dark" && afterdark) || daylogo}
           showMenu={menu ? "menu show" : "menu"}
           toggleMenu={(e) => toggleMenu(e)}
-          toggleTheme={(e) => toggleTheme(e)}
+          toggleTheme={toggleTheme}
           /*if the && expression returns false (which it does if theme is not dark - 
             because %% returns the first value if the second is not true)
             then it returns the second because || only returns first value if true

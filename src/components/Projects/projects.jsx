@@ -19,7 +19,7 @@ export default function Projects() {
         <h1>
           <span style={{ fontSize: "3.5rem" }}>
             {" "}
-            I <span style={{ color: "red" }}>❤️ </span> Creating -{" "}
+            I <span style={{ color: "#FF1400" }}>❤️ </span> Creating -{" "}
           </span>{" "}
           <br /> The good stuff. Here's What I've Been Working On.
         </h1>
@@ -84,7 +84,7 @@ export default function Projects() {
           </div>
         </section>
         <section className="project-section">
-          <h4 style={{ color: "red" }}>Valorant Agents</h4>
+          <h4 style={{ color: "#FF1400" }}>Valorant Agents</h4>
           <img src={valorant} alt="valorant project" />
           <h2>// What it does</h2>
           <p>

@@ -43,6 +43,10 @@ export default function Projects() {
           <li>CSS</li>
           <li>Javascript</li>
           <li>React</li>
+          <li>C#</li>
+          <li>.NET Core</li>
+          <li>ASP.NET Core</li>
+          <li>Relational Databases</li>
           <li>Rest API Design</li>
           <li>Node.js</li>
         </ul>

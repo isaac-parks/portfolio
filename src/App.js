@@ -32,8 +32,8 @@ export default function App() {
     setMenu(!menu);
   }
 
-  function toggleTheme() {
-    const colorButton = document.querySelector("#colorBtn");
+  function toggleTheme(event) {
+    const colorButton = event.target;
     colorButton.classList.add("colorBtnTransition");
     if (theme === "dark") {
       setTheme("light");

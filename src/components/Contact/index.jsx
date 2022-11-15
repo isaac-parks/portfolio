@@ -1,7 +1,6 @@
 import style from "./contact.css";
 import github from "../../images/github.png";
-import instagram from "../../images/instagram.png";
-import twitter from "../../images/twitter.png";
+import linkedin from "../../images/linkedin.png";
 export default function Contact() {
   return (
     <div className="contact-container">
@@ -18,34 +17,24 @@ export default function Contact() {
           <li>
             <img id="github" src={github} alt="" />
             <a
-              href="https://github.com/indoorike"
+              href="https://github.com/isaac-parks"
               style={{ color: "#FF1400" }}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <p style={{ color: "#FF1400" }}>@indoorike</p>
+              @isaac-parks
             </a>
           </li>
+
           <li>
-            <img src={twitter} alt="" />
-            <a
-              href="https://twitter.com/isaacwithaspace"
-              style={{ color: "#F1B000" }}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <p style={{ color: "#F1B000" }}>@isaacwithaspace</p>
-            </a>
-          </li>
-          <li>
-            <img src={instagram} alt="" />
+            <img src={linkedin} alt="" />
             <a
               href="https://www.linkedin.com/in/isaac-parks-4902691b6/"
               target="_blank"
               style={{ color: "green" }}
               rel="noopener noreferrer"
             >
-              <p style={{ color: "green" }}>@Isaac Parks</p>
+              @Isaac Parks
             </a>
           </li>
         </ul>

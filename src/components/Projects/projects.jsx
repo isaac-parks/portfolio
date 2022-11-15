@@ -42,6 +42,10 @@ export default function Projects() {
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
+          <li>VueJS</li>
+          <li>Python</li>
+          <li>Djagno Rest Framework</li>
+          <li>Kafka</li>
           <li>React</li>
           <li>C#</li>
           <li>.NET Core</li>
@@ -67,14 +71,14 @@ export default function Projects() {
             <p>HTML, CSS, Javascript</p>
             <p className="seecode">
               <a
-                href="https://indoorike.github.io/BlackJack/"
+                href="https://isaac-parks.github.io/BlackJack/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 See it Live.{" "}
               </a>
               <a
-                href="https://github.com/indoorike/BlackJack"
+                href="https://github.com/isaac-parks/BlackJack"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -98,14 +102,14 @@ export default function Projects() {
             <p>HTML, CSS, Javascript</p>
             <p className="seecode">
               <a
-                href="https://indoorike.github.io/Valorant-API/"
+                href="https://isaac-parks.github.io/Valorant-API/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 See it Live.{"                 "}
               </a>
               <a
-                href="https://github.com/indoorike/Valorant-API"
+                href="https://github.com/isaac-parks/Valorant-API"
                 target="_blank"
                 rel="noopener noreferrer"
               >

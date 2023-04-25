@@ -6,7 +6,9 @@ import react from "../../images/react-logo.png";
 import node from "../../images/node-logo.png";
 import blackjack from "../../images/blackjack-ss.jpg";
 import valorant from "../../images/valorant-ss.jpg";
+import usedcar from "../../images/usedcar.jpg";
 import projects from "./projects.css";
+import ProjectSection from "./project-section";
 
 export default function Projects() {
   useEffect(() => {
@@ -57,67 +59,34 @@ export default function Projects() {
       </div>
 
       <div className="projects-container">
-        <section className="project-section">
-          <h4>8-bit Blackjack</h4>
-          <img src={blackjack} alt="blackjack project" />
-          <h2>// What it does</h2>
-          <p>
-            Full feature Blackjack with betting and card rendering. Made using a
+        <ProjectSection
+          sectionTitle="Craigslist API"
+          img={usedcar}
+          projectDescription="A work-in-progress open source project that can be used to interface with Craigslist."
+          techStack="Django"
+          codeLink="https://github.com/isaac-parks/Unofficial-Craigslist-API"
+        />
+        <ProjectSection
+          sectionTitle="8-bit Blackjack"
+          img={blackjack}
+          projectDescription="Full feature Blackjack with betting and card rendering. Made using a
             combination of CSS grid and flexbox. The first completely original
-            project I came up with! Currently hosted on GitHub.
-          </p>
-          <div className="techstack">
-            <h2>// Tech stack</h2>
-            <p>HTML, CSS, Javascript</p>
-            <p className="seecode">
-              <a
-                href="https://isaac-parks.github.io/BlackJack/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                See it Live.{" "}
-              </a>
-              <a
-                href="https://github.com/isaac-parks/BlackJack"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View the Code.
-              </a>
-            </p>
-          </div>
-        </section>
-        <section className="project-section">
-          <h4 style={{ color: "#FF1400" }}>Valorant Agents</h4>
-          <img src={valorant} alt="valorant project" />
-          <h2>// What it does</h2>
-          <p>
-            Created using Riot Games REST API documentation. Displays
+            project I came up with! Currently hosted on GitHub."
+          techStack="HTML, CSS, Javascript"
+          liveLink="https://isaac-parks.github.io/BlackJack/"
+          codeLink="https://github.com/isaac-parks/BlackJack"
+        />
+        <ProjectSection
+          sectionTitle="Valorant Agents"
+          img={valorant}
+          projectDescription="Created using Riot Games REST API documentation. Displays
             information about characters from the video game Valorant. Used
             Javascript events to create scroll effect for character selection.
-            Currently hosted on GitHub.
-          </p>
-          <div className="techstack">
-            <h2>// Tech stack</h2>
-            <p>HTML, CSS, Javascript</p>
-            <p className="seecode">
-              <a
-                href="https://isaac-parks.github.io/Valorant-API/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                See it Live.{"                 "}
-              </a>
-              <a
-                href="https://github.com/isaac-parks/Valorant-API"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View the Code.
-              </a>
-            </p>
-          </div>
-        </section>
+            Currently hosted on GitHub."
+          techStack="HTML, CSS, Javascript"
+          liveLink="https://isaac-parks.github.io/Valorant-API/"
+          codeLink="https://github.com/isaac-parks/Valorant-API"
+        />
       </div>
     </div>
   );

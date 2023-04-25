@@ -1,6 +1,7 @@
 import daytrade from "../../images/tesla.png";
 import save from "../../images/money.png";
 import coding from "../../images/coding.png";
+import isaac from "../../images/isaac.png";
 import { useEffect } from "react";
 import BlogPreview from "./blog-preview";
 import style from "./index.css";
@@ -16,6 +17,11 @@ export default function Blog() {
         Check out some of my recent blog posts below!
       </p>
       <div className="articles">
+        <BlogPreview
+          articleLink="/blog/etude"
+          previewImage={isaac}
+          title="Etude"
+        />
         <BlogPreview
           articleLink="/blog/coding"
           previewImage={coding}

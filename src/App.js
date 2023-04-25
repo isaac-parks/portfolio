@@ -7,6 +7,7 @@ import Blog from "./components/Blog";
 import Article1 from "./components/Blog/article1";
 import Article2 from "./components/Blog/article2";
 import Article3 from "./components/Blog/article3";
+import Article4 from "./components/Blog/article4";
 import day from "./images/daywallpaper.png";
 import night from "./images/nightwallpaper.jpg";
 import afterdark from "./images/afterdark-logo.png";
@@ -90,6 +91,12 @@ export default function App() {
               path="blog/coding"
               element={
                 <Article3 color={(theme === "dark" && "#D3D3D3") || "black"} />
+              }
+            ></Route>
+            <Route
+              path="blog/etude"
+              element={
+                <Article4 color={(theme === "dark" && "#D3D3D3") || "black"} />
               }
             ></Route>
             <Route path="/contact" element={<Contact />}></Route>

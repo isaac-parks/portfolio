@@ -24,6 +24,12 @@ import header from "./components/Header/header.css";
 import footer from "./components/Footer/footer.css";
 
 export default function App() {
+  useEffect(() => {
+    const localTheme = localStorage.getItem("theme");
+    if (localTheme === "dark") {
+      document.getElementById("colorBtn").click();
+    }
+  }, []);
   const [menu, setMenu] = useState(false);
   //true = dark false = light
   const [theme, setTheme] = useState("light");
@@ -39,9 +45,11 @@ export default function App() {
     if (theme === "dark") {
       setTheme("light");
       document.querySelector("html").style.backgroundColor = "#f0e7db";
+      localStorage.setItem("theme", "light");
     } else {
       setTheme("dark");
       document.querySelector("html").style.backgroundColor = "black";
+      localStorage.setItem("theme", "dark");
     }
     setTimeout(() => {
       colorButton.classList.remove("colorBtnTransition");

@@ -1,5 +1,6 @@
 export default function ProjectSection({
   sectionTitle,
+  color,
   img,
   projectDescription,
   techStack,
@@ -8,7 +9,7 @@ export default function ProjectSection({
 }) {
   return (
     <section className="project-section">
-      <h4>{sectionTitle}</h4>
+      <h4 style={{ color: color }}>{sectionTitle}</h4>
       <img src={img} alt={`${sectionTitle} project`} />
       <h2>// What it does</h2>
       <p>{projectDescription}</p>

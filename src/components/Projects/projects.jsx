@@ -61,13 +61,15 @@ export default function Projects() {
       <div className="projects-container">
         <ProjectSection
           sectionTitle="Craigslist API"
+          color="rgb(241, 176, 0)"
           img={usedcar}
-          projectDescription="A work-in-progress open source project that can be used to interface with Craigslist."
+          projectDescription="A work-in-progress open source project that can be used to fetch information directly from Craigslist."
           techStack="Django"
           codeLink="https://github.com/isaac-parks/Unofficial-Craigslist-API"
         />
         <ProjectSection
           sectionTitle="8-bit Blackjack"
+          color="#3061e3"
           img={blackjack}
           projectDescription="Full feature Blackjack with betting and card rendering. Made using a
             combination of CSS grid and flexbox. The first completely original
@@ -79,6 +81,7 @@ export default function Projects() {
         <ProjectSection
           sectionTitle="Valorant Agents"
           img={valorant}
+          color="rgb(255, 20, 0)"
           projectDescription="Created using Riot Games REST API documentation. Displays
             information about characters from the video game Valorant. Used
             Javascript events to create scroll effect for character selection.

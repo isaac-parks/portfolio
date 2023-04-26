@@ -1,5 +1,6 @@
 import Buttons from "./btns";
 import { Link } from "react-router-dom";
+import personalLogo from "../../images/personal-logo.png";
 export default function Header({
   logo,
   toggleMenu,
@@ -13,7 +14,8 @@ export default function Header({
     <header id="header" className="header">
       <Link to="/">
         <div className="logo-container">
-          <img src={logo} alt="" className="logo" />
+          <img src={logo} alt="" className="personal-logo" />
+          {/* <img src={logo} alt="" className="logo" /> */}
           <h1>Isaac Parks</h1>
         </div>
       </Link>

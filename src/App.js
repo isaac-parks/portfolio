@@ -11,7 +11,7 @@ import Article4 from "./components/Blog/article4";
 import day from "./images/daywallpaper.png";
 import night from "./images/nightwallpaper.jpg";
 import afterdark from "./images/afterdark-logo.png";
-import daylogo from "./images/daylogo.jpg";
+import daylogo from "./images/personal-logo.png";
 import sun from "./images/sun.png";
 import moon from "./images/moon.png";
 import burgerlight from "./images/burger-light.png";

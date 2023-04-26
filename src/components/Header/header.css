@@ -32,15 +32,36 @@ header {
   padding-left: 0.5rem;
 }
 
-.logo-container img {
-  height: 94px;
-  width: 94px;
+.logo-container .logo {
+  max-height: 250px;
+  max-width: 250px;
   object-fit: contain;
   position: absolute;
   transform: rotate(-6deg);
   background-color: transparent;
+  left: 73%;
+  /* left: 45%;
+  top: -180%;
+  height: 145px;
+  width: 145px;
+  left: 45%;
+  top: -200%; */
+}
+
+.logo-container .personal-logo {
+  max-height: 150px;
+  max-width: 150px;
+  object-fit: contain;
+  margin-right: 1rem;
+  /* position: absolute;
+  transform: rotate(-6deg);
+  background-color: transparent;
   left: 45%;
   top: -180%;
+  height: 145px;
+  width: 145px;
+  left: 45%;
+  top: -200%; */
 }
 
 .buttons {
@@ -124,13 +145,6 @@ header {
     flex: 4;
     background-color: transparent;
     border: none;
-  }
-
-  .logo-container img {
-    height: 145px;
-    width: 145px;
-    left: 45%;
-    top: -200%;
   }
 
   .menu * {

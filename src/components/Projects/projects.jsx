@@ -46,7 +46,7 @@ export default function Projects() {
           <li>Javascript</li>
           <li>VueJS</li>
           <li>Python</li>
-          <li>Djagno Rest Framework</li>
+          <li>Django Rest Framework</li>
           <li>Kafka</li>
           <li>React</li>
           <li>C#</li>

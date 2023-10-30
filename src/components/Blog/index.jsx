@@ -2,6 +2,7 @@ import daytrade from "../../images/tesla.png";
 import save from "../../images/money.png";
 import coding from "../../images/coding.png";
 import isaac from "../../images/isaac.png";
+import lowlevelthoughts from "../../images/lowlevelthoughts.png";
 import { useEffect } from "react";
 import BlogPreview from "./blog-preview";
 import style from "./index.css";
@@ -17,6 +18,12 @@ export default function Blog() {
         Check out some of my recent blog posts below!
       </p>
       <div className="articles">
+        <BlogPreview
+          articleLink="https://www.youtube.com/watch?v=f0uset7quwg"
+          previewImage={lowlevelthoughts}
+          title="Learning The Lower Level MATTERS"
+          renderVideo
+        />
         <BlogPreview
           articleLink="/blog/etude"
           previewImage={isaac}

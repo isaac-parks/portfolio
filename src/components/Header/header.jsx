@@ -16,16 +16,9 @@ export default function Header({
         <div className="logo-container">
           <img src={logo} alt="" className="personal-logo" />
           {/* <img src={logo} alt="" className="logo" /> */}
-          <h1>Isaac Parks</h1>
+          <h1 style={{ backgroundColor: "transparent" }}>Isaac Parks</h1>
         </div>
       </Link>
-      <Buttons
-        burger={burger}
-        toggleTheme={toggleTheme}
-        toggleMenu={toggleMenu}
-        sun={sun}
-        themeColor={themeColor}
-      />
       <ul className={showMenu}>
         <li id="first">
           <Link to="/">Home</Link>
@@ -40,6 +33,13 @@ export default function Header({
           <Link to="/contact">Contact</Link>
         </li>
       </ul>
+      <Buttons
+        burger={burger}
+        toggleTheme={toggleTheme}
+        toggleMenu={toggleMenu}
+        sun={sun}
+        themeColor={themeColor}
+      />
     </header>
   );
 }

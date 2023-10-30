@@ -11,13 +11,19 @@ export default function Main({ theme }) {
         className="introduction"
         style={{ backgroundImage: `url(${theme})` }}
       >
-        <h1 style={{ color: "#3061E3" }}>Isaac Parks</h1>
-        <p>
-          <span style={{ color: "#FF1400" }}>
-            Soft<span style={{ color: "#F1B000" }}>Ware</span>{" "}
+        <h1 style={{ color: "#3061E3", backgroundColor: "transparent" }}>
+          Isaac Parks
+        </h1>
+        <p style={{ backgroundColor: "transparent" }}>
+          <span style={{ color: "#FF1400", backgroundColor: "transparent" }}>
+            Soft
+            <span style={{ color: "#F1B000", backgroundColor: "transparent" }}>
+              ware
+            </span>{" "}
           </span>{" "}
-          {/* <span style={{ color: "#F1B000" }}>Ware</span>{" "} */}
-          <span style={{ color: "green" }}>Developer</span>
+          <span style={{ color: "green", backgroundColor: "transparent" }}>
+            Developer
+          </span>
         </p>
       </section>
 

@@ -1,3 +1,4 @@
+import parse from "html-react-parser";
 export default function ProjectSection({
   sectionTitle,
   color,
@@ -12,7 +13,7 @@ export default function ProjectSection({
       <h4 style={{ color: color }}>{sectionTitle}</h4>
       <img src={img} alt={`${sectionTitle} project`} />
       <h2>// What it does</h2>
-      <p>{projectDescription}</p>
+      <p>{parse(projectDescription)}</p>
       <div className="techstack">
         <h2>// Tech stack</h2>
         <p>{techStack}</p>

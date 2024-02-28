@@ -7,6 +7,7 @@ import node from "../../images/node-logo.png";
 import blackjack from "../../images/blackjack-ss.jpg";
 import valorant from "../../images/valorant-ss.jpg";
 import usedcar from "../../images/usedcar.jpg";
+import mlp from "../../images/mlp.jpg";
 import projects from "./projects.css";
 import ProjectSection from "./project-section";
 
@@ -25,45 +26,68 @@ export default function Projects() {
           </span>{" "}
           <br /> The good stuff. Here's What I've Been Working On.
         </h1>
-        <p> 👇🏿</p>
+        <p>👇🏿</p>
       </div>
 
       <div className="tech-stack-section">
         <h2>
-          Throwing around buzzwords is fun and all, but here are the
-          technologies I'm most comfortable with right now.
+          Throwing around buzzwords is fun. Here are some I'd say I feel the
+          most comfortable with.
         </h2>
         <ul
           style={{
-            width: "50%",
+            width: "75%",
             margin: "auto",
             padding: "0px",
-            listStyle: "none",
+            listStyle: "circle",
+            textAlign: "left",
           }}
         >
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>VueJS</li>
-          <li>Python</li>
-          <li>Django Rest Framework</li>
-          <li>Kafka</li>
-          <li>React</li>
-          <li>C#</li>
-          <li>.NET Core</li>
-          <li>ASP.NET Core</li>
-          <li>Relational Databases</li>
-          <li>Rest API Design</li>
-          <li>Node.js</li>
+          <li>Javascript.</li>
+          <li>Any frontend JS framework because they are all the same.</li>
+          <li>Python 🫶🏾</li>
+          <li>
+            Any backend web Python framework because they are all the same.
+          </li>
+
+          <li>C# and the rest of the .NET ecosystem.</li>
+          <li>C.</li>
+          <li>C++.</li>
+          <li>Rust, sweet lord I love rust.</li>
+          <li>
+            Assembly. Don't ask me to write anything in assembly because I will
+            not do it, but I wrote a VERY basic program in AVR assembly for a
+            microcontroller, and it actually worked which is a flex, so I'm
+            putting it on here.
+          </li>
+          <li>Relational Databases.</li>
+          <li>AWS.</li>
+          <li>Operating Systems - Design and Development. (Linux = 🐐)</li>
+          <li>
+            Hardware and Software Communcation protocols and how to approach
+            learning new ones.
+          </li>
+          <li>
+            Every single detail about how a computer works. (do you want to talk
+            about how computers work for 3 hours?)
+          </li>
+          <li>Electricity.</li>
         </ul>
       </div>
 
       <div className="projects-container">
         <ProjectSection
+          sectionTitle="Multi-layer Perceptron (OpenAIsaac)"
+          color="#936bdb"
+          img={mlp}
+          projectDescription={`This is my own implementation of a multi-layer perceptron neural network architecture based on the famous 2003 research paper <a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probalistic Language Model</a>. The general purpose of it is to generate text with similar patterns given a set of input text. In the repo, I'm using it as a fake name generator, but it can be used for any type of input text. Please keep in mind that I am not Sam Altman and this puppy is not GPT 🤠. It's far from perfect, but has been a lot of fun and super fascinating.`}
+          codeLink="https://github.com/isaac-parks/OpenAIsaac"
+        />
+        <ProjectSection
           sectionTitle="Craigslist API"
           color="rgb(241, 176, 0)"
           img={usedcar}
-          projectDescription="A work-in-progress open source project that can be used to fetch information directly from Craigslist."
+          projectDescription="Why doesn't Craigslist have an API? Probably because no one has updated craigslist since the year the research paper mentioned about came out. A work-in-progress open source project that can be used to fetch information directly from Craigslist."
           techStack="Django"
           codeLink="https://github.com/isaac-parks/Unofficial-Craigslist-API"
         />
@@ -72,16 +96,15 @@ export default function Projects() {
           color="#3061e3"
           img={blackjack}
           projectDescription="Full feature Blackjack with betting and card rendering. Made using a
-            combination of CSS grid and flexbox. The first completely original
-            project I came up with! Currently hosted on GitHub."
+            combination of CSS grid and flexbox. Kind of a boring project, but this is the first completely original
+            project I came up with/implemented on my own so I keep it around. Plus, I'm a degenerate gambler."
           techStack="HTML, CSS, Javascript"
           liveLink="https://isaac-parks.github.io/BlackJack/"
           codeLink="https://github.com/isaac-parks/BlackJack"
         />
-        <ProjectSection
+        {/* <ProjectSection
           sectionTitle="Valorant Agents"
           img={valorant}
-          color="rgb(255, 20, 0)"
           projectDescription="Created using Riot Games REST API documentation. Displays
             information about characters from the video game Valorant. Used
             Javascript events to create scroll effect for character selection.
@@ -89,7 +112,7 @@ export default function Projects() {
           techStack="HTML, CSS, Javascript"
           liveLink="https://isaac-parks.github.io/Valorant-API/"
           codeLink="https://github.com/isaac-parks/Valorant-API"
-        />
+        /> */}
       </div>
     </div>
   );

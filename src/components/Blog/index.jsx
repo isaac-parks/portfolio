@@ -12,7 +12,12 @@ export default function Blog() {
   });
   return (
     <div className="blog">
-      <h1>Hello! 👋🏾</h1>
+      <h1>
+        Hello!{" "}
+        <span style={{ fontSize: "5px" }}>
+          (insert generic developer wave emoji here)
+        </span>
+      </h1>
       <p>
         If you want to learn more about me, or see what I've been up to - <br />
         Check out some of my recent blog posts below!

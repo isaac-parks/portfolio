@@ -93,7 +93,7 @@
 
 .projects-container h4 {
   background-color: transparent;
-  text-shadow: 1px 1px black;
+  /* text-shadow: 1px 1px black; */
   color: #3061e3;
   position: relative;
   font-size: 3rem;

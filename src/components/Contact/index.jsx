@@ -1,19 +1,20 @@
 import style from "./contact.css";
+import email from "../../images/email.png";
 import github from "../../images/github.png";
 import linkedin from "../../images/linkedin.png";
 export default function Contact() {
   return (
     <div className="contact-container">
       <h1>Don't be shy! 😉 </h1>
-      <section className="professional-box">
-        <p>
-          The fastest way to reach me is my email! (No way this guy is a Gen Z!){" "}
-        </p>
-        <a href="mailto: isaacparks1800@gmail.com">isaacparks1800@gmail.com</a>
-      </section>
+      <section className="professional-box"></section>
       <section className="socials-container">
-        <h2>Or find me on the web...</h2>
         <ul className="social-links">
+          <li>
+            <img id="github" src={email} alt="" />
+            <a href="mailto: isaacparks1800@gmail.com">
+              isaacparks1800@gmail.com
+            </a>
+          </li>
           <li>
             <img id="github" src={github} alt="" />
             <a

@@ -81,6 +81,7 @@ export default function Projects() {
           color="#936bdb"
           img={mlp}
           projectDescription={`This is my own implementation of a multi-layer perceptron neural network architecture based on the famous 2003 research paper <a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probalistic Language Model</a>. The general purpose of it is to generate text with similar patterns given a set of input text. In the repo, I'm using it as a fake name generator, but it can be used for any type of input text. Please keep in mind that I am not Sam Altman and this puppy is not GPT 🤠. It's far from perfect, but has been a lot of fun and super fascinating.`}
+          techStack="Python, Pytorch, Matplotlib, Jupyter Notebook."
           codeLink="https://github.com/isaac-parks/OpenAIsaac"
         />
         <ProjectSection
@@ -88,7 +89,7 @@ export default function Projects() {
           color="rgb(241, 176, 0)"
           img={usedcar}
           projectDescription="Why doesn't Craigslist have an API? Probably because no one has updated craigslist since the year the research paper mentioned about came out. A work-in-progress open source project that can be used to fetch information directly from Craigslist."
-          techStack="Django"
+          techStack="Django."
           codeLink="https://github.com/isaac-parks/Unofficial-Craigslist-API"
         />
         <ProjectSection
@@ -98,7 +99,7 @@ export default function Projects() {
           projectDescription="Full feature Blackjack with betting and card rendering. Made using a
             combination of CSS grid and flexbox. Kind of a boring project, but this is the first completely original
             project I came up with/implemented on my own so I keep it around. Plus, I'm a degenerate gambler."
-          techStack="HTML, CSS, Javascript"
+          techStack="HTML, CSS, Javascript."
           liveLink="https://isaac-parks.github.io/BlackJack/"
           codeLink="https://github.com/isaac-parks/BlackJack"
         />

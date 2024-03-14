@@ -30,10 +30,11 @@ export default function Main({ theme }) {
       <Section
         titleClass="work"
         title="Projects"
-        paragraph="The coolest part about programming is being able to create. 
-        It's really amazing to be capable of dreaming up something in my head, 
-        and make it happen by talking to a computer! That's pretty incredible when you think about it. 
-        This is why I really enjoy creating projects that reflect a piece of myself."
+        paragraph="I spend like 90% of my time working on projects on top doing full-stack web development full-time. 
+        I also have 7 kids. That was a joke. But not about the projects. I have a lot of those. As much as I'd like to say I've built an X 
+        (formerly Twitter™️) clone that doesn't have a backend, or an AI project that uses the OpenAI API to make GPT 
+        do all the work, I'm more into building stuff like bread board computers, bootloaders, 
+        or (big word trigger warning) implementing multi-layer perceptron models."
         btnClass="seework"
         btnText="My Projects"
         color="#3061E3"
@@ -41,19 +42,22 @@ export default function Main({ theme }) {
       />
 
       <Section
-        title="About Me"
+        title="Blog"
         titleClass="work"
-        paragraph="I do a lot! A crucial part of who I am is based on my love of learning. 
-        That's why my skillset has become so diverse - any time I see something that sparks my interest, I learn about it."
+        paragraph="Oh what is there to say. I am a self-taught developer who got into it because I wanted to learn more about how computers work.
+        I love plants and could tell you a bunch of random information about them you don't care to hear. Did you know Venus Fly Traps are endemic to North Carolina?
+        I enjoy tennis, running, and pretty much anything that gets blood pumping. I like nature, being outside, camping, hiking and all that stuff.
+        I play piano, although I don't play as much as I'd like to anymore.
+        Occasionally, I write/make videos about stuff on my mind, so I'll direct you to that now. I add and remove stuff often, so savor it while it lasts."
         btnClass="seework"
-        btnText="Learn More"
+        btnText="Blog"
         color="#DA2528"
         btnLink="/blog"
       />
       <Section
         title="Contact Me"
         titleClass="work"
-        paragraph="I take any chance I can get to expand my network and get to know new people. I love discussing new ideas, and creating opportunities. Let's get in touch! "
+        paragraph="hmu"
         color="#F1B000"
         btnText="Let's Connect"
         btnClass="seework"

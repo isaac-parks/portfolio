@@ -30,11 +30,9 @@ export default function Main({ theme }) {
       <Section
         titleClass="work"
         title="Projects"
-        paragraph="I spend like 90% of my time working on projects on top doing full-stack web development full-time. 
-        I also have 7 kids. That was a joke. But not about the projects. I have a lot of those. As much as I'd like to say I've built an X 
-        (formerly Twitter™️) clone that doesn't have a backend, or an AI project that uses the OpenAI API to make GPT 
-        do all the work, I'm more into building stuff like bread board computers, bootloaders, 
-        or (big word trigger warning) implementing multi-layer perceptron models."
+        paragraph="I spend like 90% of my time working on projects while doing full-stack web development full-time. 
+        I also have 7 kids. That was a joke. But not about the projects. I have a lot of those. I'm into building stuff like bread board computers, bootloaders, 
+        or (big word warning) implementing multi-layer perceptron models."
         btnClass="seework"
         btnText="My Projects"
         color="#3061E3"

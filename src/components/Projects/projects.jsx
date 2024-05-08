@@ -52,7 +52,7 @@ export default function Projects() {
 
           <li>C# and the rest of the .NET ecosystem.</li>
           <li>C.</li>
-          <li>C++.</li>
+          <li>Not C++.</li>
           <li>Rust, sweet lord I love rust.</li>
           <li>
             Assembly. Don't ask me to write anything in assembly because I will
@@ -62,7 +62,7 @@ export default function Projects() {
           </li>
           <li>Relational Databases.</li>
           <li>AWS.</li>
-          <li>Operating Systems - Design and Development. (Linux = 🐐)</li>
+          <li>Operating System Development (Linux = 🐐)</li>
           <li>
             Hardware and Software Communcation protocols and how to approach
             learning new ones.
@@ -80,7 +80,7 @@ export default function Projects() {
           sectionTitle="Multi-Layer Perceptron (OpenAIsaac)"
           color="#936bdb"
           img={mlp}
-          projectDescription={`This is my own implementation of a multi-layer perceptron neural network architecture based on the famous 2003 research paper <a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probalistic Language Model</a>. The general purpose of it is to generate text with similar patterns given a set of input text. In the repo, I'm using it as a fake name generator, but it can be used for any type of input text. Please keep in mind that I am not Sam Altman and this puppy is not GPT 🤠. It's far from perfect, but has been a lot of fun and super fascinating.`}
+          projectDescription={`This is an implementation of a multi-layer perceptron neural network architecture based on the famous 2003 research paper <a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probalistic Language Model</a>. The general purpose of it is to generate text with similar patterns given a set of input text. In the repo, I'm using it as a fake name generator, but it can be used for any type of input text. Please keep in mind that I am not Sam Altman and this puppy is not GPT 🤠. It's far from perfect, but has been a lot of fun and super fascinating.`}
           techStack="Python, Pytorch, Matplotlib, Jupyter Notebook."
           codeLink="https://github.com/isaac-parks/OpenAIsaac"
         />

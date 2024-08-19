@@ -24,12 +24,6 @@ export default function Blog() {
       </p>
       <div className="articles">
         <BlogPreview
-          articleLink="https://www.youtube.com/watch?v=f0uset7quwg"
-          previewImage={lowlevelthoughts}
-          title="2x speed rant related to learning low level programming(?)"
-          renderVideo
-        />
-        <BlogPreview
           articleLink="/blog/etude"
           previewImage={isaac}
           title="Etude"

@@ -32,7 +32,7 @@ export default function Main({ theme }) {
         title="Projects"
         paragraph="I spend like 90% of my time working on projects while doing full-stack web development full-time. 
         I also have 7 kids. That was a joke. But not about the projects. I have a lot of those. I'm into building stuff like bread board computers, bootloaders, 
-        or (big word warning) implementing multi-layer perceptron models."
+        or implementing multi-layer perceptron models."
         btnClass="seework"
         btnText="My Projects"
         color="#3061E3"

@@ -33,16 +33,6 @@ export default function Blog() {
           previewImage={coding}
           title="How I found my Passion in Coding"
         />
-        {/* <BlogPreview
-          articleLink="/blog/daytrade"
-          previewImage={daytrade}
-          title="I Love Day Trading - Here's Why You Shouldn't Do it"
-        /> */}
-        {/* <BlogPreview
-          articleLink="/blog/savemoney"
-          previewImage={save}
-          title="3 Quick Ways to Start Saving Money"
-        /> */}
       </div>
     </div>
   );

@@ -53,7 +53,7 @@ export default function Projects() {
           <li>C# and the rest of the .NET ecosystem.</li>
           <li>C.</li>
           <li>Not C++.</li>
-          <li>Rust, sweet lord I love rust.</li>
+          <li>Rust, man I love rust.</li>
           <li>
             Assembly. Don't ask me to write anything in assembly because I will
             not do it, but I wrote a VERY basic program in AVR assembly for a
@@ -66,10 +66,6 @@ export default function Projects() {
           <li>
             Hardware and Software Communcation protocols and how to approach
             learning new ones.
-          </li>
-          <li>
-            Every single detail about how a computer works. (do you want to talk
-            about how computers work for 3 hours?)
           </li>
           <li>Electricity.</li>
         </ul>
@@ -98,7 +94,7 @@ export default function Projects() {
           img={blackjack}
           projectDescription="Full feature Blackjack with betting and card rendering. Made using a
             combination of CSS grid and flexbox. Kind of a boring project, but this is the first completely original
-            project I came up with/implemented on my own so I keep it around. Plus, I'm a degenerate gambler."
+            project I came up with/implemented on my own so I keep it around. I recently refactored it to use a game loop in hopes of building a rust backend for it."
           techStack="HTML, CSS, Javascript."
           liveLink="https://isaac-parks.github.io/BlackJack/"
           codeLink="https://github.com/isaac-parks/BlackJack"

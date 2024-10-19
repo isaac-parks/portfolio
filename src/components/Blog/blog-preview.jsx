@@ -13,10 +13,10 @@ export default function BlogPreview({
 
 function videoPreview(props) {
   return (
-    <a href={props.articleLink} target="_blank">
+    <a href={props.articleLink} target="_blank" rel="noreferrer">
       <div className="article-container">
         <article>
-          <h4>{props.title}</h4>
+          <h4>{props.title} (video)</h4>
           <img src={props.previewImage} alt="" />
         </article>
       </div>

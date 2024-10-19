@@ -1,11 +1,9 @@
-import daytrade from "../../images/tesla.png";
-import save from "../../images/money.png";
 import coding from "../../images/coding.png";
 import isaac from "../../images/isaac.png";
-import lowlevelthoughts from "../../images/lowlevelthoughts.png";
+import golearn from "../../images/go-learn.png";
 import { useEffect } from "react";
 import BlogPreview from "./blog-preview";
-import style from "./index.css";
+import _ from "./index.css";
 export default function Blog() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,6 +21,12 @@ export default function Blog() {
         Check out some of my recent blog posts below!
       </p>
       <div className="articles">
+        <BlogPreview
+          title="Go learn something cool"
+          previewImage={golearn}
+          articleLink="https://www.youtube.com/watch?v=Lks7PXja7J4"
+          renderVideo
+        />
         <BlogPreview
           articleLink="/blog/etude"
           previewImage={isaac}

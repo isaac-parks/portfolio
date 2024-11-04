@@ -14,14 +14,14 @@
   background-size: 100%;
   background-position: no-repeat center center fixed;
   position: relative;
-  padding-top: 4rem;
+  padding-top: 2rem;
   width: 90%;
   text-align: center;
   margin: auto;
 }
 
 .footer-header p {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   margin-top: 1rem;
 }
 

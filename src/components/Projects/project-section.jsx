@@ -12,7 +12,7 @@ export default function ProjectSection({
     <section className="project-section">
       <h4 style={{ color: color }}>{sectionTitle}</h4>
       <img src={img} alt={`${sectionTitle} project`} />
-      <h2>// What it does</h2>
+      <h2>// What is it?</h2>
       <p>{parse(projectDescription)}</p>
       <div className="techstack">
         <h2>// Tech stack</h2>

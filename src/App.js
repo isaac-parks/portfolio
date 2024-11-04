@@ -31,7 +31,6 @@ export default function App() {
     }
   }, []);
   const [menu, setMenu] = useState(false);
-  //true = dark false = light
   const [theme, setTheme] = useState("light");
 
   function toggleMenu(e) {
@@ -48,7 +47,7 @@ export default function App() {
       localStorage.setItem("theme", "light");
     } else {
       setTheme("dark");
-      document.querySelector("html").style.backgroundColor = "black";
+      document.querySelector("html").style.backgroundColor = "#344646";
       localStorage.setItem("theme", "dark");
     }
     setTimeout(() => {
@@ -69,7 +68,7 @@ export default function App() {
           toggleTheme={toggleTheme}
           burger={(theme === "dark" && burger) || burgerlight}
           sun={(theme === "dark" && sun) || moon}
-          themeColor={(theme === "dark" && "yellow") || "#946cdc"}
+          themeColor={(theme === "dark" && "#f0e7db") || "#344646"}
         />
         <div className="main">
           <Routes>
@@ -82,25 +81,25 @@ export default function App() {
             <Route
               path="blog/daytrade"
               element={
-                <Article1 color={(theme === "dark" && "#D3D3D3") || "black"} />
+                <Article1 color={(theme === "dark" && "#344646") || "black"} />
               }
             ></Route>
             <Route
               path="blog/savemoney"
               element={
-                <Article2 color={(theme === "dark" && "#D3D3D3") || "black"} />
+                <Article2 color={(theme === "dark" && "#344646") || "black"} />
               }
             ></Route>
             <Route
               path="blog/coding"
               element={
-                <Article3 color={(theme === "dark" && "#D3D3D3") || "black"} />
+                <Article3 color={(theme === "dark" && "#344646") || "black"} />
               }
             ></Route>
             <Route
               path="blog/etude"
               element={
-                <Article4 color={(theme === "dark" && "#D3D3D3") || "black"} />
+                <Article4 color={(theme === "dark" && "#344646") || "black"} />
               }
             ></Route>
             <Route path="/contact" element={<Contact />}></Route>

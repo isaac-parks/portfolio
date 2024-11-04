@@ -31,7 +31,7 @@ body {
 
 .dark * {
   color: white;
-  background-color: black;
+  background-color: #344646;
   border-color: white;
   position: relative;
   transition: 0.2s;

@@ -1,15 +1,10 @@
 import { useEffect } from "react";
-import html from "../../images/html-logo.png";
 import css from "../../images/css-logo.png";
-import javascript from "../../images/javascript-logo.png";
-import react from "../../images/react-logo.png";
-import node from "../../images/node-logo.png";
 import blackjack from "../../images/blackjack-ss.jpg";
-import valorant from "../../images/valorant-ss.jpg";
-import usedcar from "../../images/usedcar.jpg";
 import mlp from "../../images/mlp.jpg";
 import projects from "./projects.css";
 import ProjectSection from "./project-section";
+import rust from "../../images/rust.png";
 
 export default function Projects() {
   useEffect(() => {
@@ -73,20 +68,20 @@ export default function Projects() {
 
       <div className="projects-container">
         <ProjectSection
+          sectionTitle="Rust Websocket Library"
+          color="rgb(241, 176, 0)"
+          img={rust}
+          projectDescription={`A hand-baked implementation of <a href="https://datatracker.ietf.org/doc/html/rfc6455">the websocket protocol</a> using no (websocket related) external dependencies (I did not feeling like writing a hasher 💤). The goal is to keep it light so that it can run on a Raspberry Pi.`}
+          techStack="Rust."
+          codeLink="https://github.com/isaac-parks/rust-websocket"
+        />
+        <ProjectSection
           sectionTitle="Multi-Layer Perceptron (OpenAIsaac)"
           color="#936bdb"
           img={mlp}
-          projectDescription={`This is an implementation of a multi-layer perceptron neural network architecture based on the famous 2003 research paper <a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probalistic Language Model</a>. The general purpose of it is to generate text with similar patterns given a set of input text. In the repo, I'm using it as a fake name generator, but it can be used for any type of input text. Please keep in mind that I am not Sam Altman and this puppy is not GPT 🤠. It's far from perfect, but has been a lot of fun and super fascinating.`}
+          projectDescription={`An implementation of a multi-layer perceptron neural network architecture based on the famous 2003 research paper <a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probalistic Language Model</a>. The general purpose of it is to generate text with similar patterns given a set of input text. In the repo, I'm using it as a fake name generator, but it can be used for any type of input text. Please keep in mind that I am not Sam Altman and this puppy is not GPT 🤠. It's far from perfect, but has been a lot of fun and super fascinating.`}
           techStack="Python, Pytorch, Matplotlib, Jupyter Notebook."
           codeLink="https://github.com/isaac-parks/OpenAIsaac"
-        />
-        <ProjectSection
-          sectionTitle="Craigslist API"
-          color="rgb(241, 176, 0)"
-          img={usedcar}
-          projectDescription="Why doesn't Craigslist have an API? Probably because no one has updated craigslist since the year the research paper mentioned about came out. A work-in-progress open source project that can be used to fetch information directly from Craigslist."
-          techStack="Django."
-          codeLink="https://github.com/isaac-parks/Unofficial-Craigslist-API"
         />
         <ProjectSection
           sectionTitle="8-bit Blackjack"
@@ -99,17 +94,6 @@ export default function Projects() {
           liveLink="https://isaac-parks.github.io/BlackJack/"
           codeLink="https://github.com/isaac-parks/BlackJack"
         />
-        {/* <ProjectSection
-          sectionTitle="Valorant Agents"
-          img={valorant}
-          projectDescription="Created using Riot Games REST API documentation. Displays
-            information about characters from the video game Valorant. Used
-            Javascript events to create scroll effect for character selection.
-            Currently hosted on GitHub."
-          techStack="HTML, CSS, Javascript"
-          liveLink="https://isaac-parks.github.io/Valorant-API/"
-          codeLink="https://github.com/isaac-parks/Valorant-API"
-        /> */}
       </div>
     </div>
   );

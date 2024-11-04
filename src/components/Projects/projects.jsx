@@ -14,13 +14,7 @@ export default function Projects() {
   return (
     <div className="projects transition">
       <div className="footer-header">
-        <h1>
-          <span style={{ fontSize: "3.5rem" }}>
-            {" "}
-            I <span style={{ color: "#FF1400" }}>❤️ </span> Creating -{" "}
-          </span>{" "}
-          <br /> The good stuff. Here's What I've Been Working On.
-        </h1>
+        <h1>This is what I've been working on.</h1>
         <p>👇🏿</p>
       </div>
 

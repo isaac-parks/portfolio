@@ -19,6 +19,7 @@ export default function Section({
             backgroundColor: color,
             border: "1px solid",
             color: "white",
+            minWidth: "120px"
           }}
           className={btnClass}
         >

@@ -33,8 +33,8 @@ header {
 }
 
 .logo-container .personal-logo {
-  max-height: 33%;
-  max-width: 33%;
+  max-height: 20%;
+  max-width: 25%;
   object-fit: contain;
   margin-right: 1rem;
 }

@@ -1,10 +1,12 @@
 import React from "react";
 import Section from "./main-content-section";
 import { useEffect } from "react";
+import main from "../../webgl/main";
 export default function Main({ theme }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
   return (
     <main>
       <section
@@ -44,8 +46,8 @@ export default function Main({ theme }) {
         titleClass="work"
         paragraph="Oh what is there to say. I am a self-taught developer who got into it because I wanted to learn more about how computers work.
         I love plants and could tell you a bunch of random information about them you don't care to hear. Did you know Venus Fly Traps are endemic to North Carolina?
-        I enjoy tennis, running, and pretty much anything that gets blood pumping. I like nature, being outside, camping, hiking and all that stuff.
-        I play piano, although I don't play as much as I'd like to anymore.
+        I enjoy tennis, running, and pretty much anything related to exercise. I like nature, being outside, camping, hiking and all that stuff.
+        I play piano, although I don't play as much as I'd like to anymore. I also fly airplanes!
         Occasionally, I write/make videos about stuff on my mind, so I'll direct you to that now. I add and remove stuff often, so savor it while it lasts."
         btnClass="seework"
         btnText="Blog"

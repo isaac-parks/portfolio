@@ -15,7 +15,7 @@ export default function Projects() {
     <div className="projects transition">
       <div className="footer-header">
         <h1>This is what I've been working on.</h1>
-        <p>👇🏿</p>
+        <p>👇🏽</p>
       </div>
 
       <div className="tech-stack-section">
@@ -33,12 +33,11 @@ export default function Projects() {
           }}
         >
           <li>Javascript.</li>
+          <li>Python</li>
           <li>Any frontend JS framework because they are all the same.</li>
-          <li>Python 🫶🏾</li>
           <li>
             Any backend web Python framework because they are all the same.
           </li>
-
           <li>C# and the rest of the .NET ecosystem.</li>
           <li>C.</li>
           <li>Not C++.</li>
@@ -46,17 +45,11 @@ export default function Projects() {
           <li>
             Assembly. Don't ask me to write anything in assembly because I will
             not do it, but I wrote a VERY basic program in AVR assembly for a
-            microcontroller, and it actually worked which is a flex, so I'm
-            putting it on here.
+            microcontroller, and it actually worked, so I'm putting it on here.
           </li>
           <li>Relational Databases.</li>
           <li>AWS.</li>
           <li>Operating System Development (Linux = 🐐)</li>
-          <li>
-            Hardware and Software Communcation protocols and how to approach
-            learning new ones.
-          </li>
-          <li>Electricity.</li>
         </ul>
       </div>
 

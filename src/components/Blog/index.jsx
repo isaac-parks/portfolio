@@ -1,5 +1,6 @@
 import coding from "../../images/coding.png";
 import isaac from "../../images/isaac.png";
+import airplane from "../../images/ppl.png"
 import golearn from "../../images/go-learn.png";
 import { useEffect } from "react";
 import BlogPreview from "./blog-preview";
@@ -22,10 +23,9 @@ export default function Blog() {
       </p>
       <div className="articles">
         <BlogPreview
-          title="Go learn something cool"
-          previewImage={golearn}
-          articleLink="https://www.youtube.com/watch?v=Lks7PXja7J4"
-          renderVideo
+        articleLink="/blog/ppl"
+        previewImage={airplane}
+        title="The time I became a pilot"
         />
         <BlogPreview
           articleLink="/blog/etude"

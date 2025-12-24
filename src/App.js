@@ -22,6 +22,7 @@ import _ from "./index.css";
 import __ from "./components/Main/content.css";
 import ___ from "./components/Header/header.css";
 import ____ from "./components/Footer/footer.css";
+import PilotArticle from "./components/Blog/pilot-article";
 
 export default function App() {
   useEffect(() => {
@@ -100,6 +101,12 @@ export default function App() {
               path="blog/etude"
               element={
                 <Article4 color={(theme === "dark" && "white") || "black"} />
+              }
+            ></Route>
+            <Route
+              path="blog/ppl"
+              element={
+                <PilotArticle color={(theme === "dark" && "white") || "black"} />
               }
             ></Route>
             <Route path="/contact" element={<Contact />}></Route>

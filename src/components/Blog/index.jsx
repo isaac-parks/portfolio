@@ -1,10 +1,10 @@
 import coding from "../../images/coding.png";
 import isaac from "../../images/isaac.png";
-import airplane from "../../images/ppl.png"
+import airplane from "../../images/ppl.png";
 import golearn from "../../images/go-learn.png";
 import { useEffect } from "react";
 import BlogPreview from "./blog-preview";
-import _ from "./index.css";
+// import _ from "./index.css";
 export default function Blog() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,9 +23,9 @@ export default function Blog() {
       </p>
       <div className="articles">
         <BlogPreview
-        articleLink="/blog/ppl"
-        previewImage={airplane}
-        title="The time I became a pilot"
+          articleLink="/blog/ppl"
+          previewImage={airplane}
+          title="The time I became a pilot"
         />
         <BlogPreview
           articleLink="/blog/etude"

@@ -1,5 +1,5 @@
 import isaac from "../../images/isaac.jpg";
-import style from "./article.css";
+// import style from "./article.css";
 export default function BlogPost({ title, articleImage, date }) {
   return (
     <div className="post-container">

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/header";
 import Main from "./components/Main/main-content";
@@ -18,10 +18,7 @@ import burgerlight from "./images/burger-light.png";
 import burger from "./images/burger.png";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer/footer";
-import _ from "./index.css";
-import __ from "./components/Main/content.css";
-import ___ from "./components/Header/header.css";
-import ____ from "./components/Footer/footer.css";
+import "./main.css";
 import PilotArticle from "./components/Blog/pilot-article";
 
 export default function App() {
@@ -106,7 +103,9 @@ export default function App() {
             <Route
               path="blog/ppl"
               element={
-                <PilotArticle color={(theme === "dark" && "white") || "black"} />
+                <PilotArticle
+                  color={(theme === "dark" && "white") || "black"}
+                />
               }
             ></Route>
             <Route path="/contact" element={<Contact />}></Route>

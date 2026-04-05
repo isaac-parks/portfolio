@@ -1,3 +1,11 @@
+@import "./components/Header/header.css";
+@import "./components/Footer/footer.css";
+@import "./components/Main/content.css";
+@import "./components/Projects/projects.css";
+@import "./components/Contact/contact.css";
+@import "./components/Blog/index.css";
+@import "./components/Blog/article.css";
+
 html {
   font-size: 100%;
   margin: 0px;
@@ -19,6 +27,7 @@ body {
 
 .main {
   min-height: 95vh;
+  padding-top: 5rem;
 }
 
 .light * {
@@ -40,15 +49,12 @@ body {
 @media screen and (min-width: 850px) {
   html {
     position: relative;
-    width: 90%;
+    width: 70%;
     margin: auto;
     font-size: 150%;
   }
   body {
     width: 90%;
     margin: auto;
-  }
-  #header {
-    width: 81%;
   }
 }

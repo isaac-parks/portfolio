@@ -1,4 +1,4 @@
-import style from "./contact.css";
+// import style from "./contact.css";
 import email from "../../images/email.png";
 import github from "../../images/github.png";
 import linkedin from "../../images/linkedin.png";
@@ -23,7 +23,7 @@ export default function Contact() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              @isaac-parks
+              github.com/isaac-parks
             </a>
           </li>
 
@@ -35,7 +35,7 @@ export default function Contact() {
               style={{ color: "green" }}
               rel="noopener noreferrer"
             >
-              @Isaac Parks
+              linkedin.com/in/isaac-parks
             </a>
           </li>
         </ul>

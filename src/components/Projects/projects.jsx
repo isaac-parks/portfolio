@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import css from "../../images/css-logo.png";
+import "../../images/css-logo.png";
 import blackjack from "../../images/blackjack-ss.jpg";
 import mlp from "../../images/mlp.jpg";
-import projects from "./projects.css";
+import "./projects.css";
 import ProjectSection from "./project-section";
 import rust from "../../images/rust.png";
 
@@ -40,8 +40,6 @@ export default function Projects() {
           </li>
           <li>C# and the rest of the .NET ecosystem.</li>
           <li>C.</li>
-          <li>Not C++.</li>
-          <li>Rust, man I love rust.</li>
           <li>
             Assembly. Don't ask me to write anything in assembly because I will
             not do it, but I wrote a VERY basic program in AVR assembly for a
@@ -58,7 +56,7 @@ export default function Projects() {
           sectionTitle="Rust Websocket Library"
           color="rgb(241, 176, 0)"
           img={rust}
-          projectDescription={`A hand-baked implementation of <a href="https://datatracker.ietf.org/doc/html/rfc6455">the websocket protocol</a> using no (websocket related) external dependencies (I did not feeling like writing a hasher 💤). The goal is to keep it light so that it can run on a Raspberry Pi.`}
+          projectDescription={`A hand-crafted implementation of <a href="https://datatracker.ietf.org/doc/html/rfc6455">the websocket protocol</a> using no (websocket related) external dependencies (I did not feeling like writing a hasher 💤). The goal is to keep it light so that it can run on a Raspberry Pi.`}
           techStack="Rust."
           codeLink="https://github.com/isaac-parks/rust-websocket"
         />

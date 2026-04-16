@@ -1,3 +1,6 @@
+.projects-container {
+  margin-top: 4rem;
+}
 .projects {
   padding-top: 4rem;
   text-align: center;
@@ -96,7 +99,7 @@
   /* text-shadow: 1px 1px black; */
   color: #3061e3;
   position: relative;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: left;
   margin-bottom: 1rem;
 }

@@ -1,6 +1,6 @@
  .blog {
    margin-top:5rem;
- } 
+ }
 
  .articles {
    display: flex;
@@ -8,8 +8,22 @@
    gap: 10px;
  }
 
+ .articles * {
+   text-decoration: none;
+ }
+
  .preview {
    display: flex;
-   color: red;
+   justify-content: space-between;
  }
+
+ .post {
+   text-align: start;
+ } 
+
+ .post * {
+   text-align: start;
+ }
+
+
 

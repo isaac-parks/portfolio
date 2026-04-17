@@ -1,8 +1,5 @@
-import coding from "../../images/coding.png";
-import isaac from "../../images/isaac.png";
-import airplane from "../../images/ppl.png";
 import { useEffect } from "react";
-import BlogPreview from "./blog-preview";
+import Preview from "./preview";
 
 export default function Blog() {
   useEffect(() => {
@@ -11,20 +8,26 @@ export default function Blog() {
   return (
     <div className="blog">
       <div className="articles">
-        <BlogPreview
-          articleLink="/blog/ppl"
-          previewImage={airplane}
+        <Preview
+          date="10"
+          count="1"
+          link="/blog/ppl"
           title="The time I became a pilot"
+          postPreview="hello"
         />
-        <BlogPreview
-          articleLink="/blog/etude"
-          previewImage={isaac}
+        <Preview
+          count="2"
+          date="10"
+          link="/blog/etude"
           title="Etude"
+          postPreview="hello"
         />
-        <BlogPreview
+        <Preview
+          count="3"
+          date="10"
           articleLink="/blog/coding"
-          previewImage={coding}
           title="How I found my Passion in Coding"
+          postPreview="Hello"
         />
       </div>
     </div>

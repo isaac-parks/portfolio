@@ -1,42 +1,15 @@
-.blog {
-  width: 90%;
-  margin-top: 4rem;
-  margin: auto;
-}
+ .blog {
+   margin-top:5rem;
+ } 
 
-.blog h1 {
-  font-family: "A Goblin Appears!";
-  margin: auto;
-  padding-top: 8rem;
-  text-align: center;
-  font-size: 2rem;
-}
+ .articles {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
 
-.blog p {
-  font-size: 1.5rem;
-  text-align: center;
-  width: 90%;
-  margin: auto;
-  margin-top: 1rem;
-  padding-bottom: 5rem;
-  border-bottom: 1px solid white;
-}
+ .preview {
+   display: flex;
+   color: red;
+ }
 
-.blog a {
-  color: white;
-  text-decoration: none;
-}
-
-.articles {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  align-items: start;
-  margin: auto;
-  margin-top: 5rem;
-}
-
-.article-container img {
-  width: 100%;
-  object-fit: contain;
-}

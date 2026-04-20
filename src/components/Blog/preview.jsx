@@ -2,7 +2,7 @@ export default function Preview({ link, count, date, title, postPreview }) {
   return (
     <a href={link}>
       <section className="preview">
-        <p className="preview_count">{count}</p>
+        <p className="preview-count">{count}</p>
         <div className="post">
           <h4>{title}</h4>
           <p>{postPreview}</p>

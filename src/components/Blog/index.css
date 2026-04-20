@@ -1,5 +1,9 @@
  .blog {
-   margin-top:5rem;
+   margin-top:6rem; 
+ }
+
+ .blog * {
+   margin: 0px;
  }
 
  .articles {
@@ -17,13 +21,25 @@
    justify-content: space-between;
  }
 
+
+ .preview-count {
+   flex: 0.5;
+ }
+
  .post {
    text-align: start;
+   flex: 5;
  } 
+
+ .post p {
+  font-size: 0.75rem;
+ }
 
  .post * {
    text-align: start;
  }
-
+ .date {
+   flex: 1;
+ }
 
 

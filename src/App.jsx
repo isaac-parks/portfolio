@@ -6,7 +6,7 @@ import Projects from "./components/Projects/projects";
 import Blog from "./components/Blog";
 import Article1 from "./components/Blog/article1";
 import Article2 from "./components/Blog/article2";
-import Article3 from "./components/Blog/article3";
+import PassionInCoding from "./components/Blog/passionInCoding";
 import Article4 from "./components/Blog/article4";
 import day from "./images/daywallpaper.png";
 import night from "./images/nightwallpaper.jpg";
@@ -91,7 +91,7 @@ export default function App() {
             <Route
               path="blog/coding"
               element={
-                <Article3 color={(theme === "dark" && "white") || "black"} />
+                <PassionInCoding color={(theme === "dark" && "white") || "black"} />
               }
             ></Route>
             <Route

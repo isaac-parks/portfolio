@@ -1,5 +1,10 @@
 import { useEffect } from "react";
 import Preview from "./preview";
+import text from './article-text.jsx'
+
+function getPreview(fullJsx) {
+  return String(fullJsx.props.children[0]).slice(0, 100) + ' ... '
+}
 
 export default function Blog() {
   useEffect(() => {
@@ -25,9 +30,9 @@ export default function Blog() {
         <Preview
           count="3"
           date="10"
-          articleLink="/blog/coding"
+          link="/blog/coding"
           title="How I found my Passion in Coding"
-          postPreview="Hello"
+          postPreview={getPreview(text.coding('blue'))}
         />
       </div>
     </div>

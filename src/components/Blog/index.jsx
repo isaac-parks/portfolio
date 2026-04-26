@@ -28,7 +28,7 @@ export default function Blog() {
           postPreview={getPreview(text.etude())}
         />
         <Preview
-          count="10"
+          count="3"
           date="2022-01-03"
           link="/blog/coding"
           title="How I found my Passion in Coding"

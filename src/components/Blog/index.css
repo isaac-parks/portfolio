@@ -1,47 +1,46 @@
- .blog {
-   margin-top:6rem; 
- }
+.blog {
+  margin-top: 6rem;
+  padding: 10px;
+}
 
- .blog * {
-   margin: 0px;
- }
+.blog * {
+  margin: 0px;
+}
 
- .articles {
-   display: flex;
-   flex-direction: column;
-   gap: 10px;
- }
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
- .articles * {
-   text-decoration: none;
- }
+.articles * {
+  text-decoration: none;
+}
 
- .preview {
-   display: flex;
-   justify-content: space-between;
- }
+.preview {
+  display: flex;
+  justify-content: space-between;
+}
 
+.preview-count {
+  font-size: 0.5rem;
+  flex: 0.5;
+}
 
- .preview-count {
-   font-size: 0.5rem;
-   flex: 0.5;
- }
+.post {
+  text-align: start;
+  flex: 5;
+}
 
- .post {
-   text-align: start;
-   flex: 5;
- } 
-
- .post p {
+.post p {
   font-size: 0.75rem;
   opacity: 0.5;
- }
+}
 
- .post * {
-   text-align: start;
- }
- .date {
-   flex: 1;
- }
-
-
+.post * {
+  text-align: start;
+}
+.date {
+  flex: 1;
+  font-size: 0.5rem;
+}

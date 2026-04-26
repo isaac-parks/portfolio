@@ -3,6 +3,10 @@
   width: 90%;
 }
 
+.post-container p {
+  font-size: 1.1rem;
+}
+
 .article-image-container {
   max-width: 100%;
   max-height: 20rem;
@@ -19,7 +23,7 @@
 }
 
 .title h1 {
-  font-size: 2.3rem;
+  font-size: 2rem;
   text-align: center;
   padding-bottom: 2rem;
   padding-top: 7rem;
@@ -42,11 +46,11 @@
 
 .date {
   text-align: left;
-  font-size: 0.8rem;
 }
 
 .date p {
   text-align: left;
+  font-size: 0.8rem;
 }
 
 .author img {

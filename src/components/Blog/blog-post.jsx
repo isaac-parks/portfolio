@@ -11,7 +11,7 @@ export default function BlogPost({ title, articleImage, date, content }) {
       <section className="author-date">
         <div className="author">
           <img src={isaac} alt="isaacparks" />
-          <p>By Isaac Parks</p>
+          <p>By Isaac Parks (not Claude)</p>
         </div>
         <div className="date">
           <p>

@@ -10,9 +10,9 @@ export default function PilotArticle() {
 
   return (
     <BlogPost
-      date="April 25, 2023"
+      date="Feb 02, 2026"
       articleImage={airplane}
-      title="The time I became a pilot"
+      title="I became a pilot"
       content={text.pilot()}
     />
   );

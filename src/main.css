@@ -26,7 +26,7 @@ body {
 }
 
 .main {
-  min-height: 95vh;
+  min-height: 10vh;
 }
 
 .light * {

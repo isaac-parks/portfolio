@@ -9,13 +9,11 @@ export default function PilotArticle() {
   });
 
   return (
-    <>
-      <BlogPost
-        date="April 25, 2023"
-        articleImage={airplane}
-        title="The time I became a pilot"
-      />
-      {text.pilot()}
-    </>
+    <BlogPost
+      date="April 25, 2023"
+      articleImage={airplane}
+      title="The time I became a pilot"
+      content={text.pilot()}
+    />
   );
 }

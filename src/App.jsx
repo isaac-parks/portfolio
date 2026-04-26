@@ -7,7 +7,7 @@ import Blog from "./components/Blog";
 import Article1 from "./components/Blog/article1";
 import Article2 from "./components/Blog/article2";
 import PassionInCoding from "./components/Blog/passionInCoding";
-import Article4 from "./components/Blog/article4";
+import Etude from "./components/Blog/etude";
 import day from "./images/daywallpaper.png";
 import night from "./images/nightwallpaper.jpg";
 import afterdark from "./images/afterdark-logo.png";
@@ -97,7 +97,7 @@ export default function App() {
             <Route
               path="blog/etude"
               element={
-                <Article4 color={(theme === "dark" && "white") || "black"} />
+                <Etude color={(theme === "dark" && "white") || "black"} />
               }
             ></Route>
             <Route

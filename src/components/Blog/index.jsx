@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import Preview from "./preview";
-import text from './article-text.jsx'
+import text from "./article-text.jsx";
 
 function getPreview(fullJsx) {
-  return String(fullJsx.props.children[0]).slice(0, 100) + ' ... '
+  return String(fullJsx.props.children[0]).slice(0, 100) + " ... ";
 }
 
 export default function Blog() {
@@ -14,25 +14,25 @@ export default function Blog() {
     <div className="blog">
       <div className="articles">
         <Preview
-          date="10"
+          date="2026-02-01"
           count="1"
           link="/blog/ppl"
           title="The time I became a pilot"
-          postPreview="hello"
+          postPreview={getPreview(text.pilot())}
         />
         <Preview
           count="2"
-          date="10"
+          date="2023-08-11"
           link="/blog/etude"
           title="Etude"
-          postPreview="hello"
+          postPreview={getPreview(text.etude())}
         />
         <Preview
-          count="3"
-          date="10"
+          count="10"
+          date="2022-01-03"
           link="/blog/coding"
           title="How I found my Passion in Coding"
-          postPreview={getPreview(text.coding('blue'))}
+          postPreview={getPreview(text.coding())}
         />
       </div>
     </div>

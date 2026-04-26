@@ -5,8 +5,6 @@ import linkedin from "../../images/linkedin.png";
 export default function Contact() {
   return (
     <div className="contact-container">
-      <h1>Don't be shy! 😉 </h1>
-      <section className="professional-box"></section>
       <section className="socials-container">
         <ul className="social-links">
           <li>

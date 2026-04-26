@@ -1,41 +1,38 @@
-import coding from "../../images/coding.png";
-import isaac from "../../images/isaac.png";
-import airplane from "../../images/ppl.png";
-import golearn from "../../images/go-learn.png";
 import { useEffect } from "react";
-import BlogPreview from "./blog-preview";
-// import _ from "./index.css";
+import Preview from "./preview";
+import text from "./article-text.jsx";
+
+function getPreview(fullJsx) {
+  return String(fullJsx.props.children[0]).slice(0, 100) + " ... ";
+}
+
 export default function Blog() {
   useEffect(() => {
     window.scrollTo(0, 0);
   });
   return (
     <div className="blog">
-      <h1>
-        Hello!{" "}
-        <span style={{ fontSize: "5px" }}>
-          (insert generic developer wave emoji here)
-        </span>
-      </h1>
-      <p>
-        If you want to learn more about me, or see what I've been up to - <br />
-        Check out some of my recent blog posts below!
-      </p>
       <div className="articles">
-        <BlogPreview
-          articleLink="/blog/ppl"
-          previewImage={airplane}
-          title="The time I became a pilot"
+        <Preview
+          date="2026-02-01"
+          count="1"
+          link="/blog/ppl"
+          title="I became a pilot"
+          postPreview={getPreview(text.pilot())}
         />
-        <BlogPreview
-          articleLink="/blog/etude"
-          previewImage={isaac}
+        <Preview
+          count="2"
+          date="2023-04-25"
+          link="/blog/etude"
           title="Etude"
+          postPreview={getPreview(text.etude())}
         />
-        <BlogPreview
-          articleLink="/blog/coding"
-          previewImage={coding}
+        <Preview
+          count="3"
+          date="2021-11-21"
+          link="/blog/coding"
           title="How I found my Passion in Coding"
+          postPreview={getPreview(text.coding())}
         />
       </div>
     </div>

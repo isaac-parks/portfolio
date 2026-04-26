@@ -4,10 +4,8 @@ import Header from "./components/Header/header";
 import Main from "./components/Main/main-content";
 import Projects from "./components/Projects/projects";
 import Blog from "./components/Blog";
-import Article1 from "./components/Blog/article1";
-import Article2 from "./components/Blog/article2";
-import Article3 from "./components/Blog/article3";
-import Article4 from "./components/Blog/article4";
+import PassionInCoding from "./components/Blog/passion";
+import Etude from "./components/Blog/etude";
 import day from "./images/daywallpaper.png";
 import night from "./images/nightwallpaper.jpg";
 import afterdark from "./images/afterdark-logo.png";
@@ -77,27 +75,17 @@ export default function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/blog" element={<Blog />} />
             <Route
-              path="blog/daytrade"
-              element={
-                <Article1 color={(theme === "dark" && "white") || "black"} />
-              }
-            ></Route>
-            <Route
-              path="blog/savemoney"
-              element={
-                <Article2 color={(theme === "dark" && "white") || "black"} />
-              }
-            ></Route>
-            <Route
               path="blog/coding"
               element={
-                <Article3 color={(theme === "dark" && "white") || "black"} />
+                <PassionInCoding
+                  color={(theme === "dark" && "white") || "black"}
+                />
               }
             ></Route>
             <Route
               path="blog/etude"
               element={
-                <Article4 color={(theme === "dark" && "white") || "black"} />
+                <Etude color={(theme === "dark" && "white") || "black"} />
               }
             ></Route>
             <Route

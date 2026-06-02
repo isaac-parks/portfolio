@@ -1,4 +1,3 @@
-import Section from "./main-content-section";
 import { useEffect } from "react";
 import "./content.css";
 export default function Main({ theme }) {

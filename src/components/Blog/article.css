@@ -76,10 +76,43 @@
   .post-container {
     width: 100%;
   }
+
+  .title h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 7rem;
+    margin: 0px;
+  }
+
+  .article-image-container img {
+    object-fit: contain;
+    max-width: 70%;
+    display: block;
+  }
+
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .date {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
   .content {
-    width: 100%;
+    width: 70%;
     text-align: left;
     line-height: 2.2;
+    font-size: 0.25rem;
+  }
+
+  .post-container p {
     font-size: 0.75rem;
   }
 

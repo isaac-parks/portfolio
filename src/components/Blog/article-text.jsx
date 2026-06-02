@@ -69,6 +69,7 @@ const text = {
       my degree was in Marketing). In reality, it's only been just over a year.
       It's hard to believe! Relax old me, you did it! Take a shower!
       <br></br>
+      <br></br>
       That's right, just over a year ago, on January 3, 2022, I got my first job
       as a software developer. I was hired as a Full Stack developer at a
       company in Urbandale, IA. To say it was overwhelming at first is an
@@ -76,10 +77,10 @@ const text = {
       development was less than a year's worth of self-taught knowledge. On top
       of that - this was a full stack position. The only type of “development” I
       had done up to that point was front end!
-      <br></br>I will never forget my third day at that job. I was sitting in
-      our “dev room” with a fellow junior developer who had several months of
-      experience on me, and a senior developer. We were learning about SQL,
-      which of course, I had zero experience with. The senior developer was
+      <br></br> <br></br>I will never forget my third day at that job. I was
+      sitting in our “dev room” with a fellow junior developer who had several
+      months of experience on me, and a senior developer. We were learning about
+      SQL, which of course, I had zero experience with. The senior developer was
       walking us through some of the tables the team used, and was trying to
       explain how foreign key relationships worked between them. At one point,
       she asked me if I could explain how two tables were related to each other
@@ -92,6 +93,7 @@ const text = {
       after that, I felt that my skills outgrew this job and I wasn't learning
       as much, so I left for a new job on a much bigger team working on a much
       more modern and challenging codebase.
+      <br></br>
       <br></br>
       When I look back at the crazy journey I've had in such a short amount of
       time, not much has really changed. I mean, here I am cooped up in my room

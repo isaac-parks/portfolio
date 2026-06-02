@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import "../../images/css-logo.png";
 import blackjack from "../../images/blackjack-ss.jpg";
 import mlp from "../../images/mlp.jpg";
 import "./projects.css";

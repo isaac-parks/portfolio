@@ -6,11 +6,18 @@
 @import "./components/Blog/index.css";
 @import "./components/Blog/article.css";
 
+@font-face {
+  font-family: "commit-mono";
+  src: url("./assets/commit-mono.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   font-size: 100%;
   margin: 0px;
   padding: 0px;
-  font-family: "Inter", sans-serif;
+  font-family: "commit-mono";
   position: relative;
   background-color: #f0e7db;
 }

@@ -1,6 +1,7 @@
 @font-face {
   font-family: "A Goblin Appears!";
-  src: url("../../fonts/A-Goblin-Appears.woff2") format("woff2"),
+  src:
+    url("../../fonts/A-Goblin-Appears.woff2") format("woff2"),
     url("../../fonts/A-Goblin-Appears.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -16,30 +17,78 @@ main {
   position: relative;
 }
 
+main ul {
+  margin: 0px;
+  padding: 10px;
+}
+
+main h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
 .introduction * {
   background-color: transparent;
   text-shadow: 1px 1px black;
 }
 
+.introduction h1 {
+  text-align: center;
+  text-shadow:
+    -2px -2px 0 #15294f,
+    2px -2px 0 #15294f,
+    -2px 2px 0 #15294f,
+    2px 2px 0 #15294f;
+}
+
 .introduction {
-  width: 99%;
   margin: auto;
   position: relative;
-  font-size: 200%;
-  text-align: center;
   font-family: "A Goblin Appears!";
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 2rem;
-  height: 90vh;
-  background-position: 20% 60%;
-  background-size: 420%;
+  font-size: 1rem;
+  height: 40vh;
+  background-position: 10% 75%;
 }
 .introduction p {
+  padding: 0px;
+  padding-left: 10px;
+  margin: 0px;
   margin-top: 2rem;
-  text-align: center;
   line-height: 2;
+}
+
+.professional-summary {
+  width: 90%;
+  text-align: left;
+  font-size: 1rem;
+  margin: 0px;
+  margin-top: 2rem;
+  padding-left: 10px;
+}
+
+section {
+  margin-top: 2rem;
+  padding-left: 10px;
+  font-size: 0.9rem;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.experience a {
+  color: #2563eb;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .hero {
@@ -48,70 +97,36 @@ main {
   height: 20%;
 }
 
-.work {
-  text-align: justify;
-  margin-top: 3rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-}
-
-.work h2 {
-  display: inline;
-  border-bottom: 5px solid grey;
-}
-
-.work p {
-  margin-top: 1rem;
-  line-height: 1.5;
-}
-
-.seework {
-  display: block;
-  margin: auto;
-  margin-top: 1.2rem;
-  font-size: 1rem;
-  color: black;
-  border: 0px;
-  border-radius: 0.5rem;
-  padding: 10px 12px;
-}
-
 .seework:hover {
   cursor: pointer;
 }
 
 @media screen and (min-width: 850px) {
   .introduction {
-    height: 40rem;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    font-size: 1.8rem;
+    height: 20rem;
+    background-position: 10% 75%;
+    font-size: 1rem;
   }
 
-  .work {
+  .professional-summary {
     width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .work h2 {
-    font-size: 2rem;
-    display: block;
     text-align: left;
+    font-size: 0.75rem;
     margin: auto;
+    margin-top: 2rem;
   }
 
-  .work p {
-    font-size: 1rem;
-    text-align: left;
+  main section {
+    width: 70%;
+    margin: auto;
+    margin-top: 2rem;
   }
 
-  .seework {
+  main h2 {
     font-size: 1rem;
-    height: max-content;
-    width: max-content;
-    padding: 10px;
+  }
+
+  main p {
+    font-size: 0.75rem;
   }
 }

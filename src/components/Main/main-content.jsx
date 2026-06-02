@@ -12,45 +12,99 @@ export default function Main({ theme }) {
         className="introduction"
         style={{ backgroundImage: `url(${theme})` }}
       >
-        <h1 style={{ color: "#3061E3", backgroundColor: "transparent" }}>
+        <h1 style={{ color: "#FF8A65", backgroundColor: "transparent" }}>
           Isaac Parks
         </h1>
-        <p style={{ backgroundColor: "transparent" }}>
-          <span style={{ color: "#FF1400", backgroundColor: "transparent" }}>
-            Soft
-            <span style={{ color: "#F1B000", backgroundColor: "transparent" }}>
-              ware
-            </span>{" "}
-          </span>{" "}
-          <span style={{ color: "green", backgroundColor: "transparent" }}>
-            Developer
-          </span>
+      </section>
+      <p className="professional-summary">
+        I'm Isaac. I'm a software engineer with professional experience using
+        technologies such as Python, Typescript, Docker, and Amazon Web
+        Services. The only thing I love as much as software development (or
+        prompting Codex if you're reading this as a recruiter) is flying my 1976
+        Piper Cherokee.
+      </p>
+      <section className="experience">
+        <h2>## Experience</h2>
+        <p>
+          Fullstack Software Engineer III @{" "}
+          <a
+            href="https://www.linkedin.com/company/imt-insurance/"
+            target="blank"
+          >
+            IMT Insurance
+          </a>{" "}
+          (Jun 2022, Present)
+        </p>
+        <p>
+          Software Engineer @{" "}
+          <a
+            href="https://www.linkedin.com/company/worldwide-integrated-supply-chain-solutions"
+            target="blank"
+          >
+            Worldwide Logistics
+          </a>{" "}
+          (Jan 2022, Jun 2022)
+        </p>
+        <p>
+          Most Dependable Pizza Delivery Guy in History @{" "}
+          <a href="https://pizzaranch.com/" target="blank">
+            Pizza Ranch
+          </a>{" "}
+          (Aug 2019, Jan 2022)
         </p>
       </section>
-
-      <Section
-        titleClass="work"
-        title="Projects"
-        paragraph="All the cool things I work in in my spare time. I've built stuff like breadboard computers, 
-        basic multi-layer perceptron models, OpenGL games, and more."
-        btnClass="seework"
-        btnText="My Projects"
-        color="#3061E3"
-        btnLink="/projects"
-      />
-
-      <Section
-        title="Blog"
-        titleClass="work"
-        paragraph="TLDR - I am a self-taught developer who got into it because I wanted to learn more about how computers work.
-        I love plants and could tell you a bunch of random information about them you don't care to hear. (Did you know Venus Fly Traps are endemic to North Carolina?)
-        I enjoy tennis, running, and pretty much anything related to exercise. I like nature, being outside, camping, hiking and all that stuff.
-        I play piano, although I don't play as much as I'd like to anymore. I also fly airplanes and own a 1976 Piper Cherokee!"
-        btnClass="seework"
-        btnText="Blog"
-        color="#DA2528"
-        btnLink="/blog"
-      />
+      <section className="skills">
+        <h2>## Skills</h2>
+        <div className="skill">
+          <p style={{ fontWeight: "bold" }}>
+            Programming Languages:
+            <p style={{ fontWeight: "normal", display: "inline" }}>
+              {" "}
+              Python, Javascript, Typescript, C#, C, Rust
+            </p>
+          </p>
+        </div>
+        <div className="skill">
+          <p style={{ fontWeight: "bold" }}>
+            Technologies:
+            <p style={{ fontWeight: "normal", display: "inline" }}>
+              {" "}
+              Vue, Django, AWS, Docker, Kubernetes, CI/CD (GitLab, Google Cloud
+              Build)
+            </p>
+          </p>
+        </div>
+        <div className="skill">
+          <p style={{ fontWeight: "bold" }}>
+            AI Stuff:
+            <p style={{ fontWeight: "normal", display: "inline" }}>
+              {" "}
+              Cursor, Claude Code, Codex
+            </p>
+          </p>
+        </div>
+      </section>
+      <section className="airplane">
+        <h2>## Airplane</h2>
+        <ul>
+          <li>PPL SEL IR</li>
+          <li>1976 Piper Cherokee (PA-28-140)</li>
+          <li>Garmin GNS 430 (WAAS Capable)</li>
+        </ul>
+      </section>
+      <section className="games">
+        <h2>## Games</h2>
+        <ul>
+          <li>Sekiro</li>
+          <li>Expedition 33</li>
+          <li>Stardew Valley</li>
+          <li>Baulder's Gate 3</li>
+          <li>Mewgenics</li>
+          <li>Arc Raiders</li>
+          <li>Hollow Knight: Silksong</li>
+          <li>Deadlock</li>
+        </ul>
+      </section>
     </main>
   );
 }

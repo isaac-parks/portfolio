@@ -14,7 +14,6 @@ export default function Header({
       <div id="logo-container">
         <Link to="/">
           <img id="header-logo" src={logo} alt="" className="personal-logo" />
-          <h1 style={{ backgroundColor: "transparent" }}>Isaac Parks</h1>
         </Link>
       </div>
 

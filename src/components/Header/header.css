@@ -33,7 +33,7 @@
 }
 
 #header-logo {
-  height: 4rem;
+  height: 3rem;
   width: auto;
   object-fit: contain;
 }
@@ -102,7 +102,7 @@
 /* ── Desktop (≥ 850px): centered bar, inline nav, hide burger ── */
 @media screen and (min-width: 850px) {
   #header {
-    width: 65%;
+    width: 62%;
     left: 50%;
     transform: translateX(-50%);
   }

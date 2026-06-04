@@ -233,6 +233,102 @@ const text = {
       lessons.
     </>
   ),
+  ai_slop: () => (
+    <>
+      When GPT 3.5 came out, I went into full blown existential crisis mode
+      because I thought all of society was doomed to be taken over by AI. A few
+      months later I realized it was nowhere near capable of taking my job so I
+      completely ignored it, aside from using it as a faster Google/Stack
+      Overflow search engine, and tuned out all the extra noise.
+      <br />
+      <br />
+      That trend continued until the beginning of ~2025 when the models (and the
+      tooling around them) started to get remarkably better. This is where I
+      felt a major shift for the first time — and when I began to feel how
+      utterly chaotic the industry was.
+      <br />
+      <br />
+      Large companies are laying off employees by the thousands. The entry job
+      market is dead and chopped and cooked. High performing engineers are
+      adopting a purely agentic workflow and committing to never writing code by
+      hand again. Executives and highly respected engineers have declared that
+      software engineering will be dead in the next 6 months — 10 months ago.
+      Other executives and highly respected engineers are claiming the complete
+      opposite. My workflow dramatically changed to being a pure prompt
+      engineer. Two weeks later I've reverted my dramatic workflow change
+      because I realized it was taking me longer to get stuff done and making me
+      feel stupider.
+      <br />
+      <br />
+      With the unrelenting stream of AI information, disinformation, opinion,
+      and slop berating me 24/7, my stance on AI has changed just about every
+      week for the last year. From the OG GPT 3.5-like crisis mode, to
+      completely rejecting everything related to AI, to just about everything in
+      between. For the last few months (which may as well be a decade in this
+      day and age) I've settled into a fairly concrete opinion.
+      <br />
+      <br />
+      AI agents in their current form suck at programming and are nowhere near
+      capable of replacing good software engineers. I've really tried to adopt
+      this purely agentic workflow for the last 6 months — but I can say with
+      absolute certainty that it just does not work the way people think it
+      does. I've tried every Claude Codex hack you can think of, Wiggum Loops,
+      running an agent in parallel for each finger and toe that I have. But they
+      always end up falling short.
+      <br />
+      <br />
+      I've seen two scenarios happen over and over again with AI. On one hand, I
+      give an agent a fairly complex task that would probably take me a day or
+      two to complete. It does pretty well. It gets about 80-90% of the way
+      there, and with a little extra intervention from dad, it crosses the
+      finish line in an hour or two. The next day I have an agent complete an
+      incredibly simple task in a different codebase that involves making
+      different sections of a webpage collapse and expand together when a button
+      is clicked. It fails utterly and does not get it correct no matter how
+      many times I prompt it or change to a new context window. How can this be
+      possible?
+      <br />
+      <br />
+      In the first scenario the codebase, while much more complex, has been
+      meticulously maintained for a long time by humans. The architecture is
+      solid, the code is readable, and many good patterns have been established.
+      AI works great in this case, because it can simply copy the good patterns.
+      I can also prompt the agent better because I personally have spent a lot
+      of time in the codebase, know exactly where to look and what is relevant,
+      and how to describe the task efficiently. In the second case, the codebase
+      has been mutilated by AI for several months. Slop PR after slop PR and
+      suddenly the codebase is so erratic the model struggles to figure out how
+      to do even a simple task. This is not new. This is a shittier version of a
+      concept any engineer is familiar with that is called tech debt.{" "}
+      <em>
+        Surprise surprise, the clankers built to copy patterns are good at
+        pattern matching.
+      </em>
+      <br />
+      <br />
+      Many people straight up refuse to believe that this is the case, and think
+      that AI is capable of doing everything every time. I believe the term the
+      cool kids are using these days is "AI psychosis." I've seen many people
+      (including myself) fall victim to this{" "}
+      <em>
+        "99% of prompt engineers stop prompting right before they hit big"
+      </em>{" "}
+      mentality.
+      <br />
+      <br />
+      This isn't all to say that AI is completely useless — it's clearly not.
+      But you cannot turn off your brain and let it do everything and let
+      yourself get replaced like Jensen Huang would like you to believe. In
+      order to be a high performing individual with these tools, you have to be
+      good at detecting when the slop machine starts printing, when prompt
+      looping isn't going to work, and when it is time to step in and get your
+      hands dirty.
+      <br />
+      <br />
+      Individuals and organizations stuck in this trap are racking up a debt
+      they are going to deeply regret paying back.
+    </>
+  ),
 };
 
 export default text;

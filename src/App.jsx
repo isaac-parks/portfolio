@@ -18,6 +18,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer/footer";
 import "./main.css";
 import PilotArticle from "./components/Blog/pilot-article";
+import SlopArticle from "./components/Blog/ai_slop";
 
 export default function App() {
   useEffect(() => {
@@ -94,6 +95,12 @@ export default function App() {
                 <PilotArticle
                   color={(theme === "dark" && "white") || "black"}
                 />
+              }
+            ></Route>
+            <Route
+              path="blog/psychosis"
+              element={
+                <SlopArticle color={(theme === "dark" && "white") || "black"} />
               }
             ></Route>
             <Route path="/contact" element={<Contact />}></Route>

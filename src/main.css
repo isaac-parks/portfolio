@@ -7,60 +7,60 @@
 @import "./components/Blog/article.css";
 
 @font-face {
-  font-family: "commit-mono";
-  src: url("./assets/commit-mono.otf");
-  font-weight: normal;
-  font-style: normal;
+    font-family: "commit-mono";
+    src: url("./assets/commit-mono.otf");
+    font-weight: normal;
+    font-style: normal;
 }
 
 html {
-  font-size: 100%;
-  margin: 0px;
-  padding: 0px;
-  font-family: "commit-mono";
-  position: relative;
-  background-color: #f0e7db;
+    font-size: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: "commit-mono";
+    position: relative;
+    background-color: #f0e7db;
 }
 
 html * {
-  position: relative;
+    position: relative;
 }
 
 body {
-  margin: 0px;
-  position: relative;
-  min-height: 100vh;
+    margin: 0px;
+    position: relative;
+    min-height: 100vh;
 }
 
 .main {
-  min-height: 10vh;
+    min-height: 10vh;
 }
 
 .light * {
-  color: black;
-  background-color: #f0e7db;
-  border-color: black;
-  position: relative;
-  transition: 0.2s;
+    color: #191724;
+    background-color: #f0e7db;
+    border-color: #191724;
+    position: relative;
+    transition: 0.2s;
 }
 
 .dark * {
-  color: white;
-  background-color: black;
-  border-color: white;
-  position: relative;
-  transition: 0.2s;
+    color: #f0e7db;
+    background-color: #191724;
+    border-color: #f0e7db;
+    position: relative;
+    transition: 0.2s;
 }
 
 @media screen and (min-width: 850px) {
-  html {
-    position: relative;
-    width: 70%;
-    margin: auto;
-    font-size: 150%;
-  }
-  body {
-    width: 90%;
-    margin: auto;
-  }
+    html {
+        position: relative;
+        width: 70%;
+        margin: auto;
+        font-size: 150%;
+    }
+    body {
+        width: 90%;
+        margin: auto;
+    }
 }

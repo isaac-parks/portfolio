@@ -1,149 +1,150 @@
 /* ── Base ── */
 #header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 5rem;
-  display: flex;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  border: none;
-  z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    border: none;
+    z-index: 1000;
 }
 
 /* ── Logo ── */
 #logo-container {
-  flex-shrink: 0;
-  padding-left: 1rem;
-  font-family: "A Goblin Appears!";
+    flex-shrink: 0;
+    padding-left: 1rem;
+    font-family: "A Goblin Appears!";
 }
 
 #logo-container h1 {
-  font-size: 0.75rem;
-  margin: 0;
+    font-size: 0.75rem;
+    margin: 0;
 }
 
 #logo-container a {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
 }
 
 #header-logo {
-  height: 3rem;
-  width: auto;
-  object-fit: contain;
+    height: 3rem;
+    width: auto;
+    object-fit: contain;
 }
 
 /* ── Mobile nav (hidden by default, slides in on .show) ──
    Uses #header for specificity to beat ".light * { position: relative }" */
 #header .menu {
-  position: fixed;
-  top: 5rem;
-  right: 0;
-  width: 10rem;
-  list-style: none;
-  margin: 0;
-  padding: 0.5rem 1rem 1rem;
-  border: 2px solid rgb(95, 95, 95);
-  border-radius: 0.5rem;
-  text-align: center;
-  transform: translateX(110%);
-  transition: transform 0.2s;
-  z-index: 999;
+    position: fixed;
+    top: 5rem;
+    right: 0;
+    width: 10rem;
+    list-style: none;
+    margin: 0;
+    margin-right: 0.3rem;
+    padding: 0.5rem 1rem 1rem;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 0.5rem;
+    text-align: center;
+    transform: translateX(110%);
+    transition: transform 0.2s;
+    z-index: 999;
 }
 
 #header .menu.show {
-  transform: translateX(0);
+    transform: translateX(0);
 }
 
 #header .menu li {
-  margin-top: 1rem;
-  list-style: none;
+    margin-top: 1rem;
+    list-style: none;
 }
 
 #header .menu a {
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 
 /* ── Buttons ── */
 .buttons {
-  margin-left: auto;
-  padding-right: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
+    margin-left: auto;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .buttons input[type="image"] {
-  height: 1.2rem;
-  width: 1.2rem;
-  border: 2px solid;
-  border-radius: 0.5rem;
-  padding: 0.5rem;
-  cursor: pointer;
+    height: 1.2rem;
+    width: 1.2rem;
+    border: 2px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
 }
 
 /* ── Theme button animation ── */
 .colorBtn {
-  transform: translateY(0);
-  transition: transform 0.2s;
+    transform: translateY(0);
+    transition: transform 0.2s;
 }
 
 .colorBtnTransition {
-  transform: translateY(-150%);
+    transform: translateY(-150%);
 }
 
 /* ── Desktop (≥ 850px): centered bar, inline nav, hide burger ── */
 @media screen and (min-width: 850px) {
-  #header {
-    width: 62%;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+    #header {
+        width: 62%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 
-  #header .menu {
-    position: static;
-    transform: none;
-    width: auto;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 1.5rem;
-    border: none;
-    border-radius: 0;
-    padding: 0px;
-    padding-right: 0.7rem;
-    background-color: transparent;
-  }
+    #header .menu {
+        position: static;
+        transform: none;
+        width: auto;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 1.5rem;
+        border: none;
+        border-radius: 0;
+        padding: 0px;
+        padding-right: 0.7rem;
+        background-color: transparent;
+    }
 
-  #header .menu li {
-    margin: 0;
-  }
+    #header .menu li {
+        margin: 0;
+    }
 
-  #header .menu a {
-    font-size: 0.85rem;
-  }
+    #header .menu a {
+        font-size: 0.85rem;
+    }
 
-  #burgerBtn {
-    display: none;
-  }
+    #burgerBtn {
+        display: none;
+    }
 
-  .buttons {
-    margin-left: auto;
-    border-left: 1px solid;
-    padding-left: 1rem;
-  }
+    .buttons {
+        margin-left: auto;
+        border-left: 1px solid;
+        padding-left: 1rem;
+    }
 
-  #colorBtn {
-    height: 0.8rem;
-    width: 0.8rem;
-    padding: 0.25rem;
-  }
+    #colorBtn {
+        height: 0.8rem;
+        width: 0.8rem;
+        padding: 0.25rem;
+    }
 }

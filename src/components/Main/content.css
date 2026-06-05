@@ -1,144 +1,162 @@
 @font-face {
-  font-family: "A Goblin Appears!";
-  src:
-    url("../../fonts/A-Goblin-Appears.woff2") format("woff2"),
-    url("../../fonts/A-Goblin-Appears.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
+    font-family: "A Goblin Appears!";
+    src:
+        url("../../fonts/A-Goblin-Appears.woff2") format("woff2"),
+        url("../../fonts/A-Goblin-Appears.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 main * {
-  margin: 0px;
-  color: white;
+    margin: 0px;
+    color: white;
 }
 
 main {
-  font-size: 150%;
-  position: relative;
+    font-size: 150%;
+    position: relative;
 }
 
 main ul {
-  margin: 0px;
-  padding: 10px;
+    margin: 0px;
+    padding: 10px;
 }
 
 main h2 {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .introduction * {
-  background-color: transparent;
-  text-shadow: 1px 1px black;
+    background-color: transparent;
+    text-shadow: 1px 1px black;
 }
 
 .introduction h1 {
-  text-align: center;
-  text-shadow:
-    -2px -2px 0 #15294f,
-    2px -2px 0 #15294f,
-    -2px 2px 0 #15294f,
-    2px 2px 0 #15294f;
+    background-color: transparent;
+    text-align: center;
+}
+
+.light .introduction h1 {
+    color: #15414f;
+    text-shadow:
+        -2px -2px 0 #f0e7db,
+        2px -2px 0 #f0e7db,
+        -2px 2px 0 #f0e7db,
+        2px 2px 0 #f0e7db;
+}
+
+.dark .introduction h1 {
+    color: #ff8a65;
+    text-shadow:
+        -2px -2px 0 #191724,
+        2px -2px 0 #191724,
+        -2px 2px 0 #191724,
+        2px 2px 0 #191724;
 }
 
 .light .introduction {
-  background-position: 10% 75%;
+    background-position: 10% 75%;
 }
 
 .introduction {
-  margin: auto;
-  position: relative;
-  font-family: "A Goblin Appears!";
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 1rem;
-  height: 25rem;
-  background-position: 10% 70%;
+    margin: auto;
+    position: relative;
+    font-family: "A Goblin Appears!";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1rem;
+    height: 25rem;
+    background-position: 10% 70%;
 }
 .introduction p {
-  padding: 0px;
-  padding-left: 10px;
-  margin: 0px;
-  margin-top: 2rem;
-  line-height: 2;
+    padding: 0px;
+    padding-left: 10px;
+    margin: 0px;
+    margin-top: 2rem;
+    line-height: 2;
 }
 
 .professional-summary {
-  width: 90%;
-  text-align: left;
-  font-size: 1rem;
-  margin: 0px;
-  margin-top: 2rem;
-  padding-left: 10px;
+    width: 90%;
+    text-align: left;
+    font-size: 1rem;
+    margin: 0px;
+    margin-top: 2rem;
+    padding-left: 10px;
 }
 
 section {
-  margin-top: 2rem;
-  padding-left: 10px;
-  font-size: 0.9rem;
+    margin-top: 2rem;
+    padding-left: 10px;
+    font-size: 0.9rem;
 }
 
 .experience {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 .experience a {
-  color: #2563eb;
+    color: #2563eb;
 }
 
 .skills {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
 }
 
 .hero {
-  border-radius: 50%;
-  width: 20%;
-  height: 20%;
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
 }
 
 .seework:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 850px) {
-  .light .introduction {
-    background-position: 10% 68%;
-  }
-  .introduction {
-    height: 20rem;
-    background-position: 10% 62%;
-    font-size: 1rem;
-  }
+    .light .introduction {
+        background-position: 10% 68%;
+    }
+    .introduction {
+        height: 20rem;
+        background-position: 10% 62%;
+        font-size: 1rem;
+    }
 
-  .introduction h1 {
-    margin-top: 3rem;
-  }
+    .introduction h1 {
+        margin-top: 3rem;
+    }
 
-  .professional-summary {
-    width: 70%;
-    text-align: left;
-    font-size: 0.75rem;
-    margin: auto;
-    margin-top: 2rem;
-  }
+    .professional-summary {
+        width: 70%;
+        text-align: left;
+        font-size: 0.75rem;
+        margin: auto;
+        margin-top: 2rem;
+    }
 
-  main section {
-    width: 70%;
-    margin: auto;
-    margin-top: 2rem;
-  }
+    main section {
+        width: 70%;
+        margin: auto;
+        margin-top: 2rem;
+    }
 
-  main h2 {
-    font-size: 1rem;
-  }
+    main h2 {
+        font-size: 0.85rem;
+    }
 
-  main p {
-    font-size: 0.75rem;
-  }
+    main p {
+        font-size: 0.75rem;
+    }
+
+    main li {
+        font-size: 0.75rem;
+    }
 }

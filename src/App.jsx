@@ -44,7 +44,7 @@ export default function App() {
       localStorage.setItem("theme", "light");
     } else {
       setTheme("dark");
-      document.querySelector("html").style.backgroundColor = "black";
+      document.querySelector("html").style.backgroundColor = "#191724";
       localStorage.setItem("theme", "dark");
     }
     setTimeout(() => {

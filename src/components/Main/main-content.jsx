@@ -11,9 +11,7 @@ export default function Main({ theme }) {
         className="introduction"
         style={{ backgroundImage: `url(${theme})` }}
       >
-        <h1 style={{ color: "#FF8A65", backgroundColor: "transparent" }}>
-          Isaac Parks
-        </h1>
+        <h1>Isaac Parks</h1>
       </section>
       <p className="professional-summary">
         I'm Isaac. I'm a software engineer with professional experience using

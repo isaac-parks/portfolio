@@ -3,9 +3,6 @@ import text from "./article-text.jsx";
 import isaac from "../../images/isaac.png";
 import BlogPost from "./blog-post.jsx";
 export default function Etude() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  });
   return (
     <>
       <BlogPost

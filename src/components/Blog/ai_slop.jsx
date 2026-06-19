@@ -4,10 +4,6 @@ import text from "./article-text";
 import spaceodyssey from "../../images/spaceodyssey.jpg";
 
 export default function SlopArticle() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  });
-
   return (
     <BlogPost
       date="Jun 03, 2026"

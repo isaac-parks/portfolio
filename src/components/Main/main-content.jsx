@@ -1,10 +1,5 @@
-import { useEffect } from "react";
 import "./content.css";
 export default function Main({ theme }) {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <main>
       <section
@@ -55,29 +50,29 @@ export default function Main({ theme }) {
         <div className="skill">
           <p style={{ fontWeight: "bold" }}>
             Programming Languages:
-            <p style={{ fontWeight: "normal", display: "inline" }}>
+            <span style={{ fontWeight: "normal", display: "inline" }}>
               {" "}
               Python, Javascript, Typescript, C#, C, Rust
-            </p>
+            </span>
           </p>
         </div>
         <div className="skill">
           <p style={{ fontWeight: "bold" }}>
             Technologies:
-            <p style={{ fontWeight: "normal", display: "inline" }}>
+            <span style={{ fontWeight: "normal", display: "inline" }}>
               {" "}
               Vue, Django, AWS, Docker, Kubernetes, CI/CD (GitLab, Google Cloud
               Build)
-            </p>
+            </span>
           </p>
         </div>
         <div className="skill">
           <p style={{ fontWeight: "bold" }}>
             AI Stuff:
-            <p style={{ fontWeight: "normal", display: "inline" }}>
+            <span style={{ fontWeight: "normal", display: "inline" }}>
               {" "}
               Cursor, Claude Code, Codex
-            </p>
+            </span>
           </p>
         </div>
       </section>

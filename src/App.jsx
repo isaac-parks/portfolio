@@ -1,5 +1,10 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  useLocation,
+} from "react-router-dom";
 import Header from "./components/Header/header";
 import Main from "./components/Main/main-content";
 import Projects from "./components/Projects/projects";
@@ -27,6 +32,14 @@ export default function App() {
       document.getElementById("colorBtn").click();
     }
   }, []);
+
+  const location = useLocation();
+  useEffect(() => {
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 250);
+  }, [location]);
+
   const [menu, setMenu] = useState(false);
   const [theme, setTheme] = useState("light");
 

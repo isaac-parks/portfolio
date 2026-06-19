@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import blackjack from "../../images/blackjack-ss.jpg";
 import mlp from "../../images/mlp.jpg";
 import "./projects.css";
@@ -6,10 +5,6 @@ import ProjectSection from "./project-section";
 import rust from "../../images/rust.png";
 
 export default function Projects() {
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
   return (
     <div className="projects-container">
       <ProjectSection

@@ -18,18 +18,23 @@ export default function ProjectSection({
         <h2>// Tech stack</h2>
         <p>{techStack}</p>
         <p className="seecode">
-          <LiveProjectLink projectLink={liveLink} />
-          <ProjectCodeLink codeLink={codeLink} />
+          <LiveProjectLink projectLink={liveLink} color={color} />
+          <ProjectCodeLink codeLink={codeLink} color={color} />
         </p>
       </div>
     </section>
   );
 }
 
-function LiveProjectLink({ projectLink }) {
+function LiveProjectLink({ projectLink, color }) {
   if (projectLink) {
     return (
-      <a href={projectLink} target="_blank" rel="noopener noreferrer">
+      <a
+        style={{ color: color }}
+        href={projectLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         See it Live.{" "}
       </a>
     );
@@ -37,10 +42,15 @@ function LiveProjectLink({ projectLink }) {
   return null;
 }
 
-function ProjectCodeLink({ codeLink }) {
+function ProjectCodeLink({ codeLink, color }) {
   if (codeLink) {
     return (
-      <a href={codeLink} target="_blank" rel="noopener noreferrer">
+      <a
+        style={{ color: color }}
+        href={codeLink}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         View the Code.
       </a>
     );

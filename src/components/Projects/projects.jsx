@@ -3,15 +3,27 @@ import mlp from "../../images/mlp.jpg";
 import "./projects.css";
 import ProjectSection from "./project-section";
 import rust from "../../images/rust.png";
+import whittle from "../../images/whittle.png";
 
 export default function Projects() {
   return (
     <div className="projects-container">
       <ProjectSection
+        sectionTitle="Whittle!"
+        color="#14B8A6"
+        img={whittle}
+        projectDescription={
+          "A not-so original word game where the goal is to reduce the puzzle until nothing is left. The fun part was coming up with a creative algorithm to generate the puzzle! "
+        }
+        techStack="Python, React."
+        liveLink="https://nutsack.space/whittle"
+        codeLink="https://github.com/isaac-parks/shrinkle"
+      />
+      <ProjectSection
         sectionTitle="Rust Websocket Library"
-        color="rgb(241, 176, 0)"
+        color="#CE422B"
         img={rust}
-        projectDescription={`A hand-crafted implementation of <a href="https://datatracker.ietf.org/doc/html/rfc6455">the websocket protocol</a> using no (websocket related) external dependencies (I did not feeling like writing a hasher 💤). The goal is to keep it light so that it can run on a Raspberry Pi.`}
+        projectDescription={`A hand-crafted implementation of <a href="https://datatracker.ietf.org/doc/html/rfc6455">the websocket protocol</a> using no (websocket related) external dependencies (I did not feeling like writing a hasher 💤). The goal is to keep it light so that it can run on an ESP32.`}
         techStack="Rust."
         codeLink="https://github.com/isaac-parks/rust-websocket"
       />

@@ -26,6 +26,7 @@ import PilotArticle from "./components/Blog/pilot-article";
 import SlopArticle from "./components/Blog/ai_slop";
 
 export default function App() {
+  const location = useLocation();
   useEffect(() => {
     const localTheme = localStorage.getItem("theme");
     if (localTheme === "dark") {
@@ -33,7 +34,6 @@ export default function App() {
     }
   }, []);
 
-  const location = useLocation();
   useEffect(() => {
     setTimeout(() => {
       window.scrollTo({ top: 0, behavior: "smooth" });
